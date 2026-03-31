@@ -15,7 +15,7 @@ const albumPages = [
   { type: "cover", title: "Nawaz Idris Khan", subtitle: "Your First Year", image: "images/1.jpg" },
   {
     title: "Bornday-6 October 2024",
-    text: "Welcome to the world, little one! Your first day was filled with love and wonder.",
+    text: "Welcome to the world, little one! Your very first day was wrapped in love, wonder, and the sweetest kind of magic. From the moment you arrived, you filled hearts with joy and brought a light so pure and beautiful into our lives. Tiny hands, soft breaths, and a presence so precious — you are already so deeply loved. This is just the beginning of a journey filled with laughter, discovery, and countless cherished moments. May your days be bright, your dreams be big, and your life be surrounded by warmth and happiness. The world is so much better with you in it. 💛.",
     images: [
       { src: "images/bornday1.jpg", caption: "Sleeping peacefully" },
       { src: "images/bornday2.jpg", caption: "Cozy cuddle time" },
@@ -28,33 +28,52 @@ const albumPages = [
     ]
   },
   {
-    title: "First Month-October 2024",
-    text: "At one month old, Ryland was a tiny bundle of wonder...",
+    title: "First Month-October 2024💙",
+    text: "One month with our precious little boy, and our hearts are already so full. In just a few short weeks, you’ve brought endless love, gentle moments, and a kind of happiness we never knew was possible. From your tiny fingers wrapped around ours to your peaceful sleeps and soft little sounds, every moment with you is a treasure. You may be small, but the joy you bring is bigger than anything in this world. This first month has been a beautiful beginning — a time of learning, bonding, and falling more in love with you every single day. We can’t wait to watch you grow, discover, and fill our lives with even more magic. You are deeply loved, little one, today and always. 💛",
     images: [
-      { src: "images/13.jpg", caption: "Sleeping peacefully" },
-      { src: "images/3.jpg", caption: "Cozy cuddle time" },
-      { src: "images/15.mp4", caption: "Tummy time giggles", type: "video" }, // video example
-      { src: "images/4.jpg", caption: "Tiny toes" }
+      
+      { src: "images/oct2.jpg", caption: "Cozy cuddle time" },
+      { src: "images/oct3.jpg", caption: "Tummy time giggles" },
+      { src: "images/oct4.jpg", caption: "Sleeping peacefully" },
+      { src: "images/oct5.jpg", caption: "Cozy cuddle time" },
+      { src: "images/oct6.jpg", caption: "Tummy time giggles" },
+      { src: "images/oct7.jpg", caption: "Sleeping peacefully" },
+      { src: "images/oct1.jpg", caption: "Sleeping peacefully" }
     ]
   },
   {
-    title: "November 2024",
-    text: "Exploring new sounds and smiles. Giggles every day.",
+    title: "November 2024💙",
+    text: "Exploring new sounds and discovering the joy of your own little voice. Each day brings new smiles, brighter expressions, and the sweetest giggles that fill our hearts with happiness. Your laughter is becoming our favorite melody, and your curious spirit is already shining through. Watching you grow, learn, and react to the world around you is such a beautiful journey. Every day with you is a gift, full of love, wonder, and endless smiles. 💛",
     images: [
-      { src: "images/5.jpg", caption: "Playing with toys" },
-      { src: "images/6.jpg", caption: "First bath" },
-      { src: "images/7.jpg", caption: "Happy moments" },
-      { src: "images/13.jpg", caption: "Smile time" }
+      { src: "images/nov2.jpg", caption: "First bath" },
+      { src: "images/nov3.jpg", caption: "Happy moments" },
+      { src: "images/nov4.jpg", caption: "Smile time" },
+      { src: "images/nov5.jpg", caption: "Playing with toys" },
+      { src: "images/nov6.jpg", caption: "First bath" },
+      { src: "images/nov7.jpg", caption: "Happy moments" },
+      { src: "images/nov8.jpg", caption: "Smile time" },
+      { src: "images/nov9.jpg", caption: "Playing with toys" },
+      { src: "images/nov10.jpg", caption: "Smile time" },
+      { src: "images/nov1.jpg", caption: "Playing with toys" }
     ]
   },
   {
-    title: "December 2024",
-    text: "Counting down the days until the next milestone.",
+    title: "December 2024💙",
+    text: "A month full of warmth, cuddles, and growing curiosity. Your little personality is shining brighter every day, and your smiles are becoming even more magical. From watching the world with wide, wonder-filled eyes to sharing the sweetest giggles, you’re filling every moment with joy. This month has been all about love, comfort, and the beautiful bond we share growing stronger each day. You are our little sunshine, making even the simplest days feel so special. 💛",
     images: [
-      { src: "images/5.jpg", caption: "Playing with toys" },
-      { src: "images/6.jpg", caption: "First bath" },
-      { src: "images/7.jpg", caption: "Happy moments" },
-      { src: "images/13.jpg", caption: "Smile time" }
+      { src: "images/dec1.jpg", caption: "Playing with toys" },
+      { src: "images/dec2.jpg", caption: "First bath" },
+      { src: "images/dec3.jpg", caption: "Happy moments" },
+      { src: "images/dec4.jpg", caption: "Smile time" },
+      { src: "images/dec5.jpg", caption: "Playing with toys" },
+      { src: "images/dec6.jpg", caption: "First bath" },
+      { src: "images/dec7.jpg", caption: "Happy moments" },
+      { src: "images/dec8.jpg", caption: "Smile time" },
+      { src: "images/dec9.jpg", caption: "Playing with toys" },
+      { src: "images/dec10.jpg", caption: "First bath" },
+      { src: "images/dec11.jpg", caption: "Happy moments" },
+      { src: "images/dec12.jpg", caption: "Smile time" }
+      
     ]
   },
   
@@ -119,8 +138,8 @@ const albumPages = [
     ]
   },
   {
-    title: "1st Birthday",
-    text: "Counting down the days until the next milestone.",
+    title: "1st Birthday 🎉",
+    text: "Happy 1st Birthday, little boy! One whole year of love, laughter, and unforgettable moments since you came into our lives. From your very first smile to your tiny steps and curious eyes, every day with you has been a beautiful adventure. You’ve grown so much in just one year, filling every moment with joy and every heart with endless love. Your giggles are the sweetest sound, and your bright spirit lights up every room. As you turn one today, may your life be filled with strength, happiness, and endless wonder. This is just the beginning of your amazing journey, and we can’t wait to watch you grow into the incredible boy you are meant to be. You are loved more than words can ever express. Happy Birthday, little prince! 💙🎂",
     images: [
       { src: "images/nawa1.jpg", caption: "Playing with toys" },
       { src: "images/nawa2.jpg", caption: "First bath" },
