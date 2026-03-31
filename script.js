@@ -14,6 +14,20 @@ function checkPassword() {
 const albumPages = [
   { type: "cover", title: "Nawaz Idris Khan", subtitle: "Your First Year", image: "images/1.jpg" },
   {
+    title: "Bornday-6 October 2024",
+    text: "Welcome to the world, little one! Your first day was filled with love and wonder.",
+    images: [
+      { src: "images/bornday1.jpg", caption: "Sleeping peacefully" },
+      { src: "images/bornday2.jpg", caption: "Cozy cuddle time" },
+      { src: "images/bornday3.jpg", caption: "Tummy time giggles" },
+      { src: "images/bornday4.jpg", caption: "Tiny toes" },
+      { src: "images/bornday5.jpg", caption: "Sleeping peacefully" },
+      { src: "images/bornday6.jpg", caption: "Cozy cuddle time" },
+      { src: "images/bornday7.jpg", caption: "Tummy time giggles" },
+      { src: "images/bornday8.jpg", caption: "Tiny toes" }
+    ]
+  },
+  {
     title: "First Month-October 2024",
     text: "At one month old, Ryland was a tiny bundle of wonder...",
     images: [
