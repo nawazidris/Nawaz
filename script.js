@@ -81,60 +81,119 @@ const albumPages = [
     title: "January 2025",
     text: "Counting down the days until the next milestone.",
     images: [
-      { src: "images/5.jpg", caption: "Playing with toys" },
-      { src: "images/6.jpg", caption: "First bath" },
-      { src: "images/7.jpg", caption: "Happy moments" },
-      { src: "images/13.jpg", caption: "Smile time" }
+      { src: "images/jan1.jpg", caption: "Playing with toys" },
+      { src: "images/jan2.jpg", caption: "First bath" },
+      { src: "images/jan3.jpg", caption: "Happy moments" },
+      { src: "images/jan4.jpg", caption: "Smile time" },
+      { src: "images/jan6.jpg", caption: "First bath" },
+      { src: "images/jan7.jpg", caption: "Smile time" }
     ]
   },
 {
     title: "February 2025",
     text: "Counting down the days until the next milestone.",
     images: [
-      { src: "images/5.jpg", caption: "Playing with toys" },
-      { src: "images/6.jpg", caption: "First bath" },
-      { src: "images/7.jpg", caption: "Happy moments" },
-      { src: "images/13.jpg", caption: "Smile time" }
+      { src: "images/feb1.jpg", caption: "Playing with toys" },
+      { src: "images/feb2.jpg", caption: "First bath" },
+      { src: "images/feb3.jpg", caption: "Happy moments" },
+      { src: "images/feb4.jpg", caption: "Smile time" },
+      { src: "images/feb10.jpg", caption: "Playing with toys" },
+      { src: "images/feb11.jpg", caption: "Smile time" }
     ]
   },
   {
     title: "March 2025",
     text: "Counting down the days until the next milestone.",
     images: [
-      { src: "images/5.jpg", caption: "Playing with toys" },
-      { src: "images/6.jpg", caption: "First bath" },
-      { src: "images/7.jpg", caption: "Happy moments" },
-      { src: "images/13.jpg", caption: "Smile time" }
+      { src: "images/mar1.jpg", caption: "Playing with toys" },
+      { src: "images/mar2.jpg", caption: "First bath" },
+      { src: "images/mar3.jpg", caption: "Happy moments" },
+      { src: "images/mar4.jpg", caption: "Smile time" },
+      { src: "images/mar10.jpg", caption: "Smile time" }
     ]
   },
 {
     title: "April 2025",
     text: "Counting down the days until the next milestone.",
     images: [
-      { src: "images/5.jpg", caption: "Playing with toys" },
-      { src: "images/6.jpg", caption: "First bath" },
-      { src: "images/7.jpg", caption: "Happy moments" },
-      { src: "images/13.jpg", caption: "Smile time" }
+      { src: "images/apr1.jpg", caption: "Playing with toys" },
+      { src: "images/apr2.jpg", caption: "First bath" },
+      { src: "images/apr3.jpg", caption: "Happy moments" },
+      { src: "images/apr4.jpg", caption: "Smile time" }
     ]
   },
 {
     title: "May 2025",
     text: "Counting down the days until the next milestone.",
     images: [
-      { src: "images/5.jpg", caption: "Playing with toys" },
-      { src: "images/6.jpg", caption: "First bath" },
-      { src: "images/7.jpg", caption: "Happy moments" },
-      { src: "images/13.jpg", caption: "Smile time" }
+      { src: "images/may1.jpg", caption: "Playing with toys" },
+      { src: "images/may10.jpg", caption: "First bath" },
+      { src: "images/may11.jpg", caption: "Happy moments" },
+      { src: "images/may4.jpg", caption: "Smile time" }
     ]
   },
   {
     title: "June 2025",
     text: "Counting down the days until the next milestone.",
     images: [
-      { src: "images/5.jpg", caption: "Playing with toys" },
-      { src: "images/6.jpg", caption: "First bath" },
-      { src: "images/7.jpg", caption: "Happy moments" },
-      { src: "images/13.jpg", caption: "Smile time" }
+      { src: "images/jun1.jpg", caption: "Playing with toys" },
+      { src: "images/jun2.jpg", caption: "First bath" },
+      { src: "images/jun3.jpg", caption: "Happy moments" },
+      { src: "images/jun4.jpg", caption: "Smile time" }
+    ]
+  },
+  {
+    title: "July 2025",
+    text: "Counting down the days until the next milestone.",
+    images: [
+      { src: "images/jul1.jpg", caption: "Playing with toys" },
+      { src: "images/jul4.jpg", caption: "First bath" },
+      { src: "images/jul5.jpg", caption: "Happy moments" },
+      { src: "images/jul6.jpg", caption: "Smile time" },
+      { src: "images/jul8.jpg", caption: "Smile time" },
+      { src: "images/jul9.jpg", caption: "Smile time" }
+    ]
+  },
+  {
+    title: "August 2025",
+    text: "Counting down the days until the next milestone.",
+    images: [
+      { src: "images/aug1.jpg", caption: "Playing with toys" },
+      { src: "images/aug2.jpg", caption: "First bath" },
+      { src: "images/aug3.jpg", caption: "Happy moments" },
+      { src: "images/aug4.jpg", caption: "Smile time" },
+      { src: "images/aug5.jpg", caption: "Smile time" },
+      { src: "images/aug6.jpg", caption: "Smile time" },
+      { src: "images/aug7.jpg", caption: "Smile time" },
+      { src: "images/aug8.jpg", caption: "Smile time" },
+      { src: "images/aug9.jpg", caption: "Smile time" }
+    ]
+  },
+  {
+    title: "September 2025",
+    text: "Counting down the days until the next milestone.",
+    images: [
+      { src: "images/sep1.jpg", caption: "Playing with toys" },
+      { src: "images/sep3.jpg", caption: "First bath" },
+      { src: "images/sep5.jpg", caption: "Happy moments" },
+      { src: "images/sep4.jpg", caption: "Smile time" },
+      { src: "images/sep7.jpg", caption: "Smile time" },
+      { src: "images/sep6.jpg", caption: "Smile time" }
+    ]
+  },
+  {
+    title: "October 2025",
+    text: "Counting down the days until the next milestone.",
+    images: [
+      { src: "images/oct1.jpg", caption: "Playing with toys" },
+      { src: "images/oct2.jpg", caption: "First bath" },
+      { src: "images/oct3.jpg", caption: "Happy moments" },
+      { src: "images/oct4.jpg", caption: "Smile time" },
+      { src: "images/oct5.jpg", caption: "Smile time" },
+      { src: "images/oct7.jpg", caption: "Smile time" },
+      { src: "images/oct11.jpg", caption: "Smile time" },
+      { src: "images/oct12.jpg", caption: "Smile time" }
+
     ]
   },
   {
