@@ -103,6 +103,19 @@ const albumPages = [
       { src: "images/7.jpg", caption: "Happy moments" },
       { src: "images/13.jpg", caption: "Smile time" }
     ]
+  },
+  {
+    title: "1st Birthday",
+    text: "Counting down the days until the next milestone.",
+    images: [
+      { src: "images/nawa1.jpg", caption: "Playing with toys" },
+      { src: "images/nawa2.jpg", caption: "First bath" },
+      { src: "images/nawa3.jpg", caption: "Happy moments" },
+      { src: "images/nawa4.jpg", caption: "Playing with toys" },
+      { src: "images/nawa5.jpg", caption: "First bath" },
+      { src: "images/nawa6.jpg", caption: "Happy moments" },
+      { src: "images/nawa7.jpg", caption: "Smile time" }
+    ]
   }
   // ... other months
 ];
