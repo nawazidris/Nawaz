@@ -70,18 +70,19 @@ const albumPages = [
     title: "December 2024💙",
     text: "A month full of warmth, cuddles, and growing curiosity. Your little personality is shining brighter every day, and your smiles are becoming even more magical. From watching the world with wide, wonder-filled eyes to sharing the sweetest giggles, you’re filling every moment with joy. This month has been all about love, comfort, and the beautiful bond we share growing stronger each day. You are our little sunshine, making even the simplest days feel so special. 💛",
     images: [
-      { src: "images/dec22.webp", caption: "Playing with toys" },
-      { src: "images/dec3.webp", caption: "Happy moments" },
-      { src: "images/dec23.webp", caption: "Smile time" },
-      { src: "images/dec5.webp", caption: "Playing with toys" },
+      { src: "images/dec22.webp", caption: "With Gogo" },
+      { src: "images/dec6.webp", caption: "With Dad" },
+      { src: "images/dec23.webp", caption: "Aunty Vee" },
+      { src: "images/dec24.webp", caption: "Family" },
+      { src: "images/dec3.webp", caption: "Sleep time" },
+      { src: "images/dec5.webp", caption: "Playing " },
       { src: "images/dec7.webp", caption: "Happy moments" },
       { src: "images/dec8.webp", caption: "Smile time" },
-      { src: "images/dec9.webp", caption: "Playing with toys" },
-      { src: "images/dec24.webp", caption: "First bath" },
+      { src: "images/dec9.webp", caption: "Playing " },
       { src: "images/dec11.webp", caption: "Happy moments" },
       { src: "images/dec12.webp", caption: "Smile time" },
-      { src: "images/dec6.webp", caption: "First bath" },
-      { src: "images/dec2.webp", caption: "First bath" }
+      { src: "images/dec2.webp", caption: "Playing" }
+      
       
     ]
   },
@@ -155,16 +156,16 @@ const albumPages = [
     title: "May 2025💙",
     text: "May is here, and with it comes longer days filled with warmth, playfulness, and endless wonder. We are so proud of how much you are growing and learning. Your little giggles are contagious, and your curiosity is boundless. From your first attempts to grasp new objects to the way your eyes light up with excitement, every day brings joy and amazement. May this month be filled with love, comfort, and cherished moments that we will hold in our hearts forever. We are so grateful to watch you thrive, our little sunshine, our precious boy. 💛",
     images: [
-      { src: "images/shoot(1).webp", caption: "Playing with toys" },
-      { src: "images/shoot(2).webp", caption: "Playing with toys" },
-      { src: "images/shoot(3).webp", caption: "Playing with toys" },
-      { src: "images/shoot(4).webp", caption: "Playing with toys" },
-      { src: "images/shoot(5).webp", caption: "Playing with toys" },
-      { src: "images/shoot(6).webp", caption: "Playing with toys" },
-      { src: "images/shoot(7).webp", caption: "Playing with toys" },
-      { src: "images/shoot(8).webp", caption: "Playing with toys" },
+      { src: "images/may3.webp", caption: "Playing with toys" },
+      { src: "images/may4.webp", caption: "Playing with toys" },
+      { src: "images/may5.webp", caption: "Playing with toys" },
+      { src: "images/may6.webp", caption: "Playing with toys" },
+      { src: "images/may7.webp", caption: "Playing with toys" },
       { src: "images/may1.webp", caption: "Playing with toys" },
+      { src: "images/may9.webp", caption: "Playing with toys" },
+      { src: "images/may8.webp", caption: "Playing with toys" },
       { src: "images/may10.webp", caption: "First bath" },
+      { src: "images/may2.webp", caption: "Playing with toys" },
       { src: "images/may11.webp", caption: "Happy moments" }
       
     ]
