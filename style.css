@@ -144,7 +144,34 @@ body {
   font-family: 'Playfair Display', serif;
   border-radius: 15px;
 }
+.cover-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  text-align: center;
+  text-align: justify;
+}
+.cover-text h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2em;
+  color: #b85c38; /* warm, soft color */
+  margin-bottom: 15px;
+}
 
+.cover-text p {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.2em;
+  color: #333;
+  line-height: 1.8;
+  text-align: justify;
+}
+.cover-text p:last-child {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.3em;
+  color: #b85c38;
+}
 .cover h1 {
   font-size: 2.5em;
   margin-bottom: 10px;
@@ -171,9 +198,13 @@ body {
 
 .text-page p {
   color: #333;
-  font-size: 16px;
   line-height: 1.8;
   margin-top: 10px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.2em;
+  text-align: justify;
+
+  
 }
 
 /* Image Page */

@@ -310,8 +310,17 @@ function renderPage() {
 
     // Empty right page
     const right = document.createElement("div");
-    right.className = "page";
-    container.appendChild(right);
+right.className = "page cover-text";
+right.innerHTML = `
+  <h2>Welcome to Nawaz Idris Khan Photo Album</h2>
+  <p>Nawaz Idris Khan, from the moment you arrived, you’ve filled our hearts 
+    with endless joy and love. Every tiny giggle, every little cuddle, and 
+    every new discovery has made this year magical. May your days always 
+    be bright, your dreams be big, and your life be surrounded by warmth 
+    and happiness. 💛✨.</p>
+    <p style="margin-top:20px; font-weight:bold;">With love from Mum and Dad ❤️</p>
+`;
+container.appendChild(right);
 
   } else {
     // --------- TEXT + IMAGES/VIDEOS ---------
