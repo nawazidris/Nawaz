@@ -62,17 +62,17 @@ const albumPages = [
     text: "A month full of warmth, cuddles, and growing curiosity. Your little personality is shining brighter every day, and your smiles are becoming even more magical. From watching the world with wide, wonder-filled eyes to sharing the sweetest giggles, you’re filling every moment with joy. This month has been all about love, comfort, and the beautiful bond we share growing stronger each day. You are our little sunshine, making even the simplest days feel so special. 💛",
     images: [
       { src: "images/dec1.webp", caption: "Playing with toys" },
-      { src: "images/dec2.webp", caption: "First bath" },
       { src: "images/dec3.webp", caption: "Happy moments" },
       { src: "images/dec4.webp", caption: "Smile time" },
       { src: "images/dec5.webp", caption: "Playing with toys" },
-      { src: "images/dec6.webp", caption: "First bath" },
       { src: "images/dec7.webp", caption: "Happy moments" },
       { src: "images/dec8.webp", caption: "Smile time" },
       { src: "images/dec9.webp", caption: "Playing with toys" },
       { src: "images/dec10.webp", caption: "First bath" },
       { src: "images/dec11.webp", caption: "Happy moments" },
-      { src: "images/dec12.webp", caption: "Smile time" }
+      { src: "images/dec12.webp", caption: "Smile time" },
+      { src: "images/dec6.webp", caption: "First bath" },
+      { src: "images/dec2.webp", caption: "First bath" }
       
     ]
   },
