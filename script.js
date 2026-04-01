@@ -210,13 +210,30 @@ const albumPages = [
     ]
   },
   {
-  title: "First Year Videos 🎥",
+  title: "First Year Videos-Part 1 🎥",
   text: "A collection of our favorite videos from your first year, capturing the most precious moments and milestones. From your first laugh to your first steps, these videos are a treasure trove of memories that we will cherish forever. Each video tells a story of love, growth, and the incredible journey we’ve shared together. Watching you discover the world around you, express joy, and interact with loved ones has been the greatest gift. These videos are a testament to the beautiful bond we have and the countless moments of happiness you’ve brought into our lives. We can’t wait to create even more memories with you in the years to come! 💛🎥",
   videos: [
     { src: "videos/vid1.mp4", caption: "First porridge" },
     { src: "videos/vid2.mp4", caption: "First bath" },
     { src: "videos/vid3.mp4", caption: "Sleepy time" },
-    { src: "videos/vid4.mp4", caption: "Play time" }
+    { src: "videos/vid4.mp4", caption: "First porridge" },
+    { src: "videos/vid5.mp4", caption: "First bath" },
+    { src: "videos/vid7.mp4", caption: "Sleepy time" },
+    { src: "videos/vid7.mp4", caption: "Play time" },
+    { src: "videos/vid8.mp4", caption: "Play time" }
+  ]
+},
+{
+  title: "First Year Videos-Part 2 🎥",
+  text: "A collection of our favorite videos from your first year, capturing the most precious moments and milestones. From your first laugh to your first steps, these videos are a treasure trove of memories that we will cherish forever. Each video tells a story of love, growth, and the incredible journey we’ve shared together. Watching you discover the world around you, express joy, and interact with loved ones has been the greatest gift. These videos are a testament to the beautiful bond we have and the countless moments of happiness you’ve brought into our lives. We can’t wait to create even more memories with you in the years to come! 💛🎥",
+  videos: [
+    { src: "videos/vid9.mp4", caption: "First porridge" },
+    { src: "videos/vid10.mp4", caption: "First bath" },
+    { src: "videos/vid11.mp4", caption: "Sleepy time" },
+    { src: "videos/vid12.mp4", caption: "First porridge" },
+    { src: "videos/vid14.mp4", caption: "Sleepy time" },
+    { src: "videos/vid15.mp4", caption: "Play time" },
+    { src: "videos/vid13.mp4", caption: "First bath" }
   ]
 }
   // ... other months
