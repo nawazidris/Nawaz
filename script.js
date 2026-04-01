@@ -12,9 +12,18 @@ function checkPassword() {
 
 // -------------------- ALBUM DATA --------------------
 const albumPages = [
-  { type: "cover", title: "Nawaz Idris Khan", subtitle: "Your First Year", image: "images/1.jpg" },
+  { 
+    type: "cover", 
+    title: "Nawaz Idris Khan", 
+    subtitle: "Your First Year ✨💛", 
+    image: "images/bornday1.webp",   // main cover photo
+    extras: [
+      "images/bornday2.webp",            // floating polaroids
+      "images/bornday3.webp"
+    ]
+  },
   {
-    title: "Bornday-6 October 2024",
+    title: "Birthday - 6 October 2024 🎂",
     text: "Welcome to the world, little one! Your very first day was wrapped in love, wonder, and the sweetest kind of magic. From the moment you arrived, you filled hearts with joy and brought a light so pure and beautiful into our lives. Tiny hands, soft breaths, and a presence so precious — you are already so deeply loved. This is just the beginning of a journey filled with laughter, discovery, and countless cherished moments. May your days be bright, your dreams be big, and your life be surrounded by warmth and happiness. The world is so much better with you in it. 💛.",
     images: [
       { src: "images/bornday2.webp", caption: "First picture" },
@@ -78,7 +87,7 @@ const albumPages = [
   },
   
   {
-    title: "January 2025",
+    title: "January 2025💙",
     text: "Counting down the days until the next milestone.",
     images: [
       { src: "images/jan1.webp", caption: "Playing with toys" },
@@ -90,7 +99,7 @@ const albumPages = [
     ]
   },
 {
-    title: "February 2025",
+    title: "February 2025💙",
     text: "Counting down the days until the next milestone.",
     images: [
       { src: "images/feb1.webp", caption: "Playing with toys" },
@@ -102,7 +111,7 @@ const albumPages = [
     ]
   },
   {
-    title: "March 2025",
+    title: "March 2025💙",
     text: "Counting down the days until the next milestone.",
     images: [
       { src: "images/mar1.webp", caption: "Playing with toys" },
@@ -113,7 +122,7 @@ const albumPages = [
     ]
   },
 {
-    title: "April 2025",
+    title: "April 2025💙",
     text: "Counting down the days until the next milestone.",
     images: [
       { src: "images/apr1.webp", caption: "Playing with toys" },
@@ -123,7 +132,7 @@ const albumPages = [
     ]
   },
 {
-    title: "May 2025",
+    title: "May 2025💙",
     text: "Counting down the days until the next milestone.",
     images: [
       { src: "images/shoot(1).webp", caption: "Playing with toys" },
@@ -141,7 +150,7 @@ const albumPages = [
     ]
   },
   {
-    title: "June 2025",
+    title: "June 2025💙",
     text: "Counting down the days until the next milestone.",
     images: [
       { src: "images/jun1.webp", caption: "Playing with toys" },
@@ -151,7 +160,7 @@ const albumPages = [
     ]
   },
   {
-    title: "July 2025",
+    title: "July 2025💙",
     text: "Counting down the days until the next milestone.",
     images: [
       { src: "images/jul1.webp", caption: "Playing with toys" },
@@ -163,7 +172,7 @@ const albumPages = [
     ]
   },
   {
-    title: "August 2025",
+    title: "August 2025💙",
     text: "Counting down the days until the next milestone.",
     images: [
       { src: "images/aug1.webp", caption: "Playing with toys" },
@@ -178,7 +187,7 @@ const albumPages = [
     ]
   },
   {
-    title: "September 2025",
+    title: "September 2025💙",
     text: "Counting down the days until the next milestone.",
     images: [
       { src: "images/sep1.webp", caption: "Playing with toys" },
@@ -190,7 +199,7 @@ const albumPages = [
     ]
   },
   {
-    title: "October 2025",
+    title: "October 2025💙",
     text: "Counting down the days until the next milestone.",
     images: [
       { src: "images/oct1.webp", caption: "Playing with toys" },
