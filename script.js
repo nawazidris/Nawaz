@@ -199,41 +199,41 @@ const albumPages = [
     title: "August 2025💙",
     text: "August is a month of gentle summer evenings, playful adventures, and sweet discoveries. You are growing into a bright, curious, and joyful little boy, and every smile you share warms our hearts. Watching you reach for toys, explore new textures, and interact with the world is the most beautiful experience. You are our little miracle, our shining star, and we promise to support, protect, and love you with all our hearts as you continue to grow, learn, and thrive. 💛",
     images: [
-      { src: "images/aug1.webp", caption: "Playing with toys" },
+      { src: "images/aug3.webp", caption: "Playing with toys" },
       { src: "images/aug2.webp", caption: "First bath" },
-      { src: "images/aug3.webp", caption: "Happy moments" },
+      { src: "images/aug7.webp", caption: "Happy moments" },
       { src: "images/aug4.webp", caption: "Smile time" },
-      { src: "images/aug5.webp", caption: "Smile time" },
+      { src: "images/aug1.webp", caption: "Smile time" },
       { src: "images/aug6.webp", caption: "Smile time" },
-      { src: "images/aug7.webp", caption: "Smile time" },
+      { src: "images/aug9.webp", caption: "Smile time" },
       { src: "images/aug8.webp", caption: "Smile time" },
-      { src: "images/aug9.webp", caption: "Smile time" }
+      { src: "images/aug5.webp", caption: "Smile time" }
     ]
   },
   {
     title: "September 2025💙",
     text: "September brings the first hints of autumn, cozy mornings, and the promise of new adventures. We marvel at how much you have grown since your first days, from tiny movements to joyful giggles and curious expressions. Every month, you teach us patience, love, and happiness in the simplest moments. As you continue to explore, learn, and develop your unique personality, we will always be here to guide you, support you, and shower you with endless love. 💛",
     images: [
-      { src: "images/sep1.webp", caption: "Playing with toys" },
-      { src: "images/sep3.webp", caption: "First bath" },
-      { src: "images/sep5.webp", caption: "Happy moments" },
+      { src: "images/sep1.webp", caption: "TV time" },
+      { src: "images/sep3.webp", caption: "Khan Family visit" },
+      { src: "images/sep12.webp", caption: "Happy moments" },
       { src: "images/sep4.webp", caption: "Smile time" },
-      { src: "images/sep7.webp", caption: "Smile time" },
-      { src: "images/sep6.webp", caption: "Smile time" }
+      { src: "images/sep11.webp", caption: "Smile time" },
+      { src: "images/sep10.webp", caption: "Smile time" }
     ]
   },
   {
     title: "1st Birthday 🎉",
     text: "Happy 1st Birthday, little boy! One whole year of love, laughter, and unforgettable moments since you came into our lives. From your very first smile to your tiny steps and curious eyes, every day with you has been a beautiful adventure. You’ve grown so much in just one year, filling every moment with joy and every heart with endless love. Your giggles are the sweetest sound, and your bright spirit lights up every room. As you turn one today, may your life be filled with strength, happiness, and endless wonder. This is just the beginning of your amazing journey, and we can’t wait to watch you grow into the incredible boy you are meant to be. You are loved more than words can ever express. Happy Birthday, little prince! 💙🎂",
     images: [
-      { src: "images/nawa1.webp", caption: "Playing with toys" },
-      { src: "images/nawa2.webp", caption: "First bath" },
-      { src: "images/nawa4.webp", caption: "Playing with toys" },
-      { src: "images/nawa6.webp", caption: "Happy moments" },
-      { src: "images/nawa7.webp", caption: "Smile time" },
-      { src: "images/nawa8.webp", caption: "First bath" },
-      { src: "images/nawa12.webp", caption: "Happy moments" },
-      { src: "images/nawa10.webp", caption: "Smile time" }
+      { src: "images/nawa1.webp", caption: "Cake day🎉" },
+      { src: "images/nawa2.webp", caption: "Cake day🎉" },
+      { src: "images/nawa4.webp", caption: "Cake day🎉" },
+      { src: "images/nawa6.webp", caption: "Cake day🎉" },
+      { src: "images/nawa7.webp", caption: "Cake day🎉" },
+      { src: "images/nawa8.webp", caption: "Cake day🎉" },
+      { src: "images/nawa12.webp", caption: "Cake day🎉" },
+      { src: "images/nawa10.webp", caption: "Cake day🎉" }
     ]
   },
   {
@@ -243,10 +243,9 @@ const albumPages = [
     { src: "videos/vid1.mp4", caption: "First porridge" },
     { src: "videos/vid2.mp4", caption: "First bath" },
     { src: "videos/vid3.mp4", caption: "Sleepy time" },
-    { src: "videos/vid4.mp4", caption: "First porridge" },
-    { src: "videos/vid5.mp4", caption: "First bath" },
-    { src: "videos/vid7.mp4", caption: "Sleepy time" },
-    { src: "videos/vid7.mp4", caption: "Play time" },
+    { src: "videos/vid5.mp4", caption: "Play time" },
+    { src: "videos/vid6.mp4", caption: "Play time" },
+    { src: "videos/vid7.mp4", caption: "Gutu visit" },
     { src: "videos/vid8.mp4", caption: "Play time" }
   ]
 },
@@ -254,13 +253,13 @@ const albumPages = [
   title: "First Year Videos-Part 2 🎥",
   text: "A collection of our favorite videos from your first year, capturing the most precious moments and milestones. From your first laugh to your first steps, these videos are a treasure trove of memories that we will cherish forever. Each video tells a story of love, growth, and the incredible journey we’ve shared together. Watching you discover the world around you, express joy, and interact with loved ones has been the greatest gift. These videos are a testament to the beautiful bond we have and the countless moments of happiness you’ve brought into our lives. We can’t wait to create even more memories with you in the years to come! 💛🎥",
   videos: [
-    { src: "videos/vid9.mp4", caption: "First porridge" },
-    { src: "videos/vid10.mp4", caption: "First bath" },
-    { src: "videos/vid11.mp4", caption: "Sleepy time" },
-    { src: "videos/vid12.mp4", caption: "First porridge" },
-    { src: "videos/vid14.mp4", caption: "Sleepy time" },
-    { src: "videos/vid15.mp4", caption: "Play time" },
-    { src: "videos/vid13.mp4", caption: "First bath" }
+    { src: "videos/vid9.mp4", caption: "All smiles" },
+    { src: "videos/vid10.mp4", caption: "Some Miscellaneous" },
+    { src: "videos/vid11.mp4", caption: "Roaring like a lion" },
+    { src: "videos/vid12.mp4", caption: "Roaring like a lion" },
+    { src: "videos/vid14.mp4", caption: "Birthday celebration dances" },
+    { src: "videos/vid15.mp4", caption: "Birthday celebration dances" },
+    { src: "videos/vid13.mp4", caption: "Play time" }
   ]
 },
 {
