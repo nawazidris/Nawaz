@@ -265,7 +265,7 @@ const albumPages = [
 },
 {
     title: "November 2025",
-    text: "",
+    text: "November brings cozy autumn days and cherished moments. Looking back, your first Ashes day is still fresh in our hearts — a beautiful beginning in faith and family, surrounded by love and prayers. This month, we watch you explore, giggle, and learn more about the world every day. Your curiosity, innocence, and joy brighten every corner of our lives. We promise to guide you, celebrate you, and always shower you with unconditional love. 💛",
     images: [
       { src: "images/nov11.webp", caption: "Playing with toys" },
       { src: "images/nov12.webp", caption: "First bath" },
@@ -274,6 +274,37 @@ const albumPages = [
       { src: "images/nov15.webp", caption: "First bath" },
       { src: "images/nov16.webp", caption: "Happy moments" },
       { src: "images/nov17.webp", caption: "Smile time" }
+    ]
+  },
+  {
+    title: "December 2025",
+    text: `
+  <p>
+    Dear Nawaz, December has been a month filled with warmth, love, and unforgettable moments. 
+    As the year comes to an end, we find ourselves reflecting on how much you have grown and 
+    how deeply you have filled our lives with joy. Your laughter, your curiosity, and your 
+    bright little spirit have made every day of this journey so special. From tiny beginnings 
+    to all the beautiful milestones you’ve reached, this year has truly been magical because of you. 💛
+  </p>
+
+  <p>
+    This month was especially meaningful as you visited Nyika-Bikita, our rural home for the very first time. 
+    Surrounded by nature, fresh air, and the roots of your family, it was a moment filled with 
+    pride, love, and connection. Watching you experience a place that holds so much history and 
+    meaning for us made our hearts full. We hope that as you grow, you will always feel a deep 
+    connection to where you come from, carrying those roots with you wherever life takes you. 
+    You are our greatest blessing, Nawaz, and we will cherish these memories forever. 💙
+  </p>
+`,
+    images: [
+      { src: "images/dece1.webp", caption: "Bikita" },
+      { src: "images/dece2.webp", caption: "First bath" },
+      { src: "images/dece3.webp", caption: "Happy moments" },
+      { src: "images/dece4.webp", caption: "Playing with toys" },
+      { src: "images/dece5.webp", caption: "First bath" },
+      { src: "images/dece6.webp", caption: "Happy moments" },
+      { src: "images/dece7.webp", caption: "Smile time" },
+      { src: "images/dece8.webp", caption: "Smile time" }
     ]
   }
   // ... other months
