@@ -297,13 +297,13 @@ const albumPages = [
 `,
     images: [
       { src: "images/dece1.webp", caption: "Bikita" },
-      { src: "images/dece2.webp", caption: "First bath" },
-      { src: "images/dece3.webp", caption: "Happy moments" },
+      { src: "images/dece2.webp", caption: "Bikita" },
+      { src: "images/dece3.webp", caption: "Bikita" },
       { src: "images/dece4.webp", caption: "Playing with toys" },
-      { src: "images/dece5.webp", caption: "First bath" },
-      { src: "images/dece6.webp", caption: "Happy moments" },
-      { src: "images/dece7.webp", caption: "Smile time" },
-      { src: "images/dece8.webp", caption: "Smile time" }
+      { src: "images/dece5.webp", caption: "04-roots" },
+      { src: "images/dece6.webp", caption: "Gutu" },
+      { src: "images/dece7.webp", caption: "Mango eating" },
+      { src: "images/dece8.webp", caption: "04-roots" }
     ]
   },
   { 
