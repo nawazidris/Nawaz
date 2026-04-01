@@ -177,7 +177,10 @@ const albumPages = [
       { src: "images/jun1.webp", caption: "Playing with toys" },
       { src: "images/jun2.webp", caption: "First bath" },
       { src: "images/jun3.webp", caption: "Happy moments" },
-      { src: "images/jun4.webp", caption: "Smile time" }
+      { src: "images/jun4.webp", caption: "Smile time" },
+      { src: "images/jun10.webp", caption: "Playing with toys" },
+      { src: "images/jun5.webp", caption: "First bath" },
+      { src: "images/jun11.webp", caption: "Happy moments" },
     ]
   },
   {
