@@ -126,10 +126,18 @@ const albumPages = [
     title: "May 2025",
     text: "Counting down the days until the next milestone.",
     images: [
+      { src: "images/shoot(1).webp", caption: "Playing with toys" },
+      { src: "images/shoot(2).webp", caption: "Playing with toys" },
+      { src: "images/shoot(3).webp", caption: "Playing with toys" },
+      { src: "images/shoot(4).webp", caption: "Playing with toys" },
+      { src: "images/shoot(5).webp", caption: "Playing with toys" },
+      { src: "images/shoot(6).webp", caption: "Playing with toys" },
+      { src: "images/shoot(7).webp", caption: "Playing with toys" },
+      { src: "images/shoot(8).webp", caption: "Playing with toys" },
       { src: "images/may1.webp", caption: "Playing with toys" },
       { src: "images/may10.webp", caption: "First bath" },
-      { src: "images/may11.webp", caption: "Happy moments" },
-      { src: "images/may4.webp", caption: "Smile time" }
+      { src: "images/may11.webp", caption: "Happy moments" }
+      
     ]
   },
   {
