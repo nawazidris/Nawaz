@@ -228,11 +228,12 @@ const albumPages = [
     images: [
       { src: "images/nawa1.webp", caption: "Playing with toys" },
       { src: "images/nawa2.webp", caption: "First bath" },
-      { src: "images/nawa3.webp", caption: "Happy moments" },
       { src: "images/nawa4.webp", caption: "Playing with toys" },
-      { src: "images/nawa5.webp", caption: "First bath" },
       { src: "images/nawa6.webp", caption: "Happy moments" },
-      { src: "images/nawa7.webp", caption: "Smile time" }
+      { src: "images/nawa7.webp", caption: "Smile time" },
+      { src: "images/nawa8.webp", caption: "First bath" },
+      { src: "images/nawa12.webp", caption: "Happy moments" },
+      { src: "images/nawa10.webp", caption: "Smile time" }
     ]
   },
   {
@@ -266,13 +267,13 @@ const albumPages = [
     title: "November 2025",
     text: "",
     images: [
-      { src: "images/nawa1.webp", caption: "Playing with toys" },
-      { src: "images/nawa2.webp", caption: "First bath" },
-      { src: "images/nawa3.webp", caption: "Happy moments" },
-      { src: "images/nawa4.webp", caption: "Playing with toys" },
-      { src: "images/nawa5.webp", caption: "First bath" },
-      { src: "images/nawa6.webp", caption: "Happy moments" },
-      { src: "images/nawa7.webp", caption: "Smile time" }
+      { src: "images/nov11.webp", caption: "Playing with toys" },
+      { src: "images/nov12.webp", caption: "First bath" },
+      { src: "images/nov13.webp", caption: "Happy moments" },
+      { src: "images/nov14.webp", caption: "Playing with toys" },
+      { src: "images/nov15.webp", caption: "First bath" },
+      { src: "images/nov16.webp", caption: "Happy moments" },
+      { src: "images/nov17.webp", caption: "Smile time" }
     ]
   }
   // ... other months
