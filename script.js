@@ -18,8 +18,8 @@ const albumPages = [
     subtitle: "Your First Year ✨💛", 
     image: "images/bornday1.webp",   // main cover photo
     extras: [
-      "images/bornday2.webp",            // floating polaroids
-      "images/bornday3.webp"
+      "images/oct1.webp",            // floating polaroids
+      "images/nov1.webp"
     ]
   },
   {
@@ -27,27 +27,28 @@ const albumPages = [
     text: "Welcome to the world, little one! Your very first day was wrapped in love, wonder, and the sweetest kind of magic. From the moment you arrived, you filled hearts with joy and brought a light so pure and beautiful into our lives. Tiny hands, soft breaths, and a presence so precious — you are already so deeply loved. This is just the beginning of a journey filled with laughter, discovery, and countless cherished moments. May your days be bright, your dreams be big, and your life be surrounded by warmth and happiness. The world is so much better with you in it. 💛.",
     images: [
       { src: "images/bornday2.webp", caption: "First picture" },
-      { src: "images/bornday1.webp", caption: "Cozy cuddle time" },
-      { src: "images/bornday3.webp", caption: "Tummy time giggles" },
-      { src: "images/bornday7.webp", caption: "Tiny toes" },
-      { src: "images/bornday5.webp", caption: "Sleeping peacefully" },
-      { src: "images/bornday6.webp", caption: "Cozy cuddle time" },
-      { src: "images/bornday4.webp", caption: "Tummy time giggles" },
-      { src: "images/bornday8.webp", caption: "Tiny toes" }
+      { src: "images/bornday1.webp", caption: "Cozy sleep time" },
+      { src: "images/bornday3.webp", caption: "Mama" },
+      { src: "images/bornday7.webp", caption: "Tiny fingers" },
+      { src: "images/bornday5.webp", caption: "First time with Grandma" },
+      { src: "images/bornday6.webp", caption: "Cozy sleep time" },
+      { src: "images/bornday4.webp", caption: "Meet Uncle Super" },
+      { src: "images/bornday8.webp", caption: "Sleeping peacefully" }
     ]
   },
   {
-    title: "First Month-October 2024💙",
+    title: "First Month💙",
     text: "The first month with our precious little boy, and our hearts are already so full. In just a few short weeks, you’ve brought endless love, gentle moments, and a kind of happiness we never knew was possible. From your tiny fingers wrapped around ours to your peaceful sleeps and soft little sounds, every moment with you is a treasure. You may be small, but the joy you bring is bigger than anything in this world. This first month has been a beautiful beginning — a time of learning, bonding, and falling more in love with you every single day. We can’t wait to watch you grow, discover, and fill our lives with even more magic. You are deeply loved, little one, today and always. 💛",
     images: [
       
-      { src: "images/oct2.webp", caption: "Cozy cuddle time" },
-      { src: "images/oct3.webp", caption: "Tummy time giggles" },
-      { src: "images/oct4.webp", caption: "Sleeping peacefully" },
-      { src: "images/oct5.webp", caption: "Cozy cuddle time" },
+      { src: "images/oct2.webp", caption: "Mama Nawaz" },
+      { src: "images/oct3.webp", caption: "Dad" },
+      { src: "images/oct77.webp", caption: "Aunty Eunie" },
+      { src: "images/oct4.webp", caption: "Dad" },
       { src: "images/oct6.webp", caption: "Tummy time giggles" },
       { src: "images/oct7.webp", caption: "Sleeping peacefully" },
-      { src: "images/oct1.webp", caption: "Sleeping peacefully" }
+        { src: "images/oct1.webp", caption: "Cozy cuddle time" },
+      { src: "images/oct5.webp", caption: "Sleeping peacefully" }
     ]
   },
   {
@@ -136,7 +137,6 @@ const albumPages = [
   `,
   images: [
     { src: "images/mar1.webp", caption: "First Ashes Day ✝️" },
-    { src: "images/mar2.webp", caption: "First Ashes Day ✝️" },
     { src: "images/mar3.webp", caption: "First Ashes Day ✝️" },
     { src: "images/mar4.webp", caption: "First Ashes Day ✝️" },
     { src: "images/mar10.webp", caption: "First Ashes Day ✝️" }
@@ -146,26 +146,26 @@ const albumPages = [
     title: "April 2025💙",
     text: "April brings a season of new life, flowers blooming, and bright mornings, and your presence makes everything even more magical. Your laughter is the sweetest melody, your expressions the most beautiful art. We watch you with amazement as you discover new sounds, new sensations, and the joy of simple moments. Every hug, every cuddle, and every glance from you is a reminder of the infinite love we have for you. We cannot wait to see what this month brings for you, and we promise to be with you every step of the way, cheering you on, holding you close, and loving you unconditionally. 💛",
     images: [
-      { src: "images/apr1.webp", caption: "Playing with toys" },
-      { src: "images/apr2.webp", caption: "First bath" },
-      { src: "images/apr3.webp", caption: "Happy moments" },
-      { src: "images/apr4.webp", caption: "Smile time" }
+      { src: "images/apr1.webp", caption: "Playing with dad" },
+      { src: "images/apr2.webp", caption: "Watching cartoons" },
+      { src: "images/apr3.webp", caption: "Selfie time" },
+      { src: "images/apr4.webp", caption: "Playing with dad" }
     ]
   },
 {
     title: "May 2025💙",
     text: "May is here, and with it comes longer days filled with warmth, playfulness, and endless wonder. We are so proud of how much you are growing and learning. Your little giggles are contagious, and your curiosity is boundless. From your first attempts to grasp new objects to the way your eyes light up with excitement, every day brings joy and amazement. May this month be filled with love, comfort, and cherished moments that we will hold in our hearts forever. We are so grateful to watch you thrive, our little sunshine, our precious boy. 💛",
     images: [
-      { src: "images/may3.webp", caption: "Playing with toys" },
-      { src: "images/may4.webp", caption: "Playing with toys" },
-      { src: "images/may5.webp", caption: "Playing with toys" },
-      { src: "images/may6.webp", caption: "Playing with toys" },
-      { src: "images/may7.webp", caption: "Playing with toys" },
-      { src: "images/may1.webp", caption: "Playing with toys" },
-      { src: "images/may9.webp", caption: "Playing with toys" },
-      { src: "images/may8.webp", caption: "Playing with toys" },
-      { src: "images/may10.webp", caption: "First bath" },
-      { src: "images/may2.webp", caption: "Playing with toys" },
+      { src: "images/may3.webp", caption: "Playing with dad" },
+      { src: "images/may4.webp", caption: "Mama" },
+      { src: "images/may5.webp", caption: "Mama" },
+      { src: "images/may6.webp", caption: "Sis Yolanda" },
+      { src: "images/may7.webp", caption: "Mama" },
+      { src: "images/may1.webp", caption: "Comoleon time" },
+      { src: "images/may9.webp", caption: "Dad" },
+      { src: "images/may8.webp", caption: "Sunset photos" },
+      { src: "images/may10.webp", caption: "Sleep time" },
+      { src: "images/may2.webp", caption: "Big boy" },
       { src: "images/may11.webp", caption: "Happy moments" }
       
     ]
