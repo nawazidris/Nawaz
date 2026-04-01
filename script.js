@@ -32,7 +32,7 @@ const albumPages = [
       { src: "images/bornday7.webp", caption: "Tiny fingers" },
       { src: "images/bornday5.webp", caption: "First time with Grandma" },
       { src: "images/bornday6.webp", caption: "Cozy sleep time" },
-      { src: "images/bornday4.webp", caption: "Meet Uncle Super" },
+      { src: "images/bornday4.webp", caption: "Meet Uncle Geo" },
       { src: "images/bornday8.webp", caption: "Sleeping peacefully" }
     ]
   },
@@ -55,16 +55,16 @@ const albumPages = [
     title: "November 2024💙",
     text: "Exploring new sounds and discovering the joy of your own little voice. Each day brings new smiles, brighter expressions, and the sweetest giggles that fill our hearts with happiness. Your laughter is becoming our favorite melody, and your curious spirit is already shining through. Watching you grow, learn, and react to the world around you is such a beautiful journey. Every day with you is a gift, full of love, wonder, and endless smiles. 💛",
     images: [
-      { src: "images/nov2.webp", caption: "First bath" },
+      { src: "images/nov2.webp", caption: "Dressed up" },
       { src: "images/nov3.webp", caption: "Happy moments" },
-      { src: "images/nov4.webp", caption: "Smile time" },
-      { src: "images/nov5.webp", caption: "Playing with toys" },
-      { src: "images/nov6.webp", caption: "First bath" },
-      { src: "images/nov7.webp", caption: "Happy moments" },
-      { src: "images/nov8.webp", caption: "Smile time" },
-      { src: "images/nov9.webp", caption: "Playing with toys" },
-      { src: "images/nov10.webp", caption: "Smile time" },
-      { src: "images/nov1.webp", caption: "Playing with toys" }
+      { src: "images/nov4.webp", caption: "Idris Khan" },
+      { src: "images/nov5.webp", caption: "Sleeping peacefully" },
+      { src: "images/nov6.webp", caption: "Playing" },
+      { src: "images/nov7.webp", caption: "Dad moments" },
+      { src: "images/nov8.webp", caption: "Mama moments" },
+      { src: "images/nov9.webp", caption: "Playing" },
+      { src: "images/nov10.webp", caption: "Sleeping peacefully" },
+      { src: "images/nov1.webp", caption: "Sleeping peacefully" }
     ]
   },
   {
@@ -81,7 +81,7 @@ const albumPages = [
       { src: "images/dec8.webp", caption: "Smile time" },
       { src: "images/dec9.webp", caption: "Playing " },
       { src: "images/dec11.webp", caption: "Happy moments" },
-      { src: "images/dec12.webp", caption: "Smile time" },
+      { src: "images/dec12.webp", caption: "Milk First" },
       { src: "images/dec2.webp", caption: "Playing" }
       
       
@@ -92,11 +92,11 @@ const albumPages = [
     title: "January 2025💙",
     text: "Our dear Nawaz, you’ve just begun your first year, and every single day with you has been a gift beyond words. Your tiny fingers and toes, your soft giggles, and the way you look at the world with curiosity fill our hearts with indescribable joy. January is the start of a new chapter where you are learning, growing, and filling our home with laughter and love. We are amazed by every little milestone, from your first smiles to the gentle coos that brighten our days. Never forget, little one, that you are cherished beyond measure, and we will always be here to guide, hug, and love you endlessly. 💛",
     images: [
-      { src: "images/jan1.webp", caption: "Playing with toys" },
-      { src: "images/jan2.webp", caption: "First bath" },
+      { src: "images/jan1.webp", caption: "Playing with Mama" },
+      { src: "images/jan2.webp", caption: "Dad" },
       { src: "images/jan3.webp", caption: "Happy moments" },
       { src: "images/jan4.webp", caption: "Smile time" },
-      { src: "images/jan6.webp", caption: "First bath" },
+      { src: "images/jan6.webp", caption: "Dad" },
       { src: "images/jan7.webp", caption: "Smile time" }
     ]
   },
@@ -104,11 +104,11 @@ const albumPages = [
     title: "February 2025💙",
     text: " February is here, and with it comes a world of new experiences and discoveries. You are learning to reach, to explore, and to interact with your surroundings in ways that leave us in awe. Every coo, every smile, and every tiny movement is a story of your growth, and we are privileged to be part of it. Spring is blossoming outside, just as your personality and spirit are blossoming in our hearts. We promise to encourage your curiosity, to hold your hand when needed, and to celebrate every little victory along the way. 💛",
     images: [
-      { src: "images/feb10.webp", caption: "Playing with toys" },
-      { src: "images/feb2.webp", caption: "First bath" },
-      { src: "images/feb11.webp", caption: "Happy moments" },
-      { src: "images/feb4.webp", caption: "Smile time" },
-      { src: "images/feb1.webp", caption: "Playing with toys" },
+      { src: "images/feb10.webp", caption: "Playing with Mama" },
+      { src: "images/feb2.webp", caption: "Dad moments" },
+      { src: "images/feb11.webp", caption: "Plenty milk" },
+      { src: "images/feb4.webp", caption: "Happy moments" },
+      { src: "images/feb1.webp", caption: "Playing with Dad" },
       { src: "images/feb3.webp", caption: "Smile time" }
     ]
   },
