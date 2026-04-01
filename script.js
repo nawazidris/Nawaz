@@ -261,7 +261,20 @@ const albumPages = [
     { src: "videos/vid15.mp4", caption: "Play time" },
     { src: "videos/vid13.mp4", caption: "First bath" }
   ]
-}
+},
+{
+    title: "November 2025",
+    text: "",
+    images: [
+      { src: "images/nawa1.webp", caption: "Playing with toys" },
+      { src: "images/nawa2.webp", caption: "First bath" },
+      { src: "images/nawa3.webp", caption: "Happy moments" },
+      { src: "images/nawa4.webp", caption: "Playing with toys" },
+      { src: "images/nawa5.webp", caption: "First bath" },
+      { src: "images/nawa6.webp", caption: "Happy moments" },
+      { src: "images/nawa7.webp", caption: "Smile time" }
+    ]
+  }
   // ... other months
 ];
 
