@@ -208,7 +208,17 @@ const albumPages = [
       { src: "images/nawa6.webp", caption: "Happy moments" },
       { src: "images/nawa7.webp", caption: "Smile time" }
     ]
-  }
+  },
+  {
+  title: "First Year Videos 🎥",
+  text: "A collection of our favorite videos from your first year, capturing the most precious moments and milestones. From your first laugh to your first steps, these videos are a treasure trove of memories that we will cherish forever. Each video tells a story of love, growth, and the incredible journey we’ve shared together. Watching you discover the world around you, express joy, and interact with loved ones has been the greatest gift. These videos are a testament to the beautiful bond we have and the countless moments of happiness you’ve brought into our lives. We can’t wait to create even more memories with you in the years to come! 💛🎥",
+  videos: [
+    { src: "videos/vid1.mp4", caption: "First porridge" },
+    { src: "videos/vid2.mp4", caption: "First bath" },
+    { src: "videos/vid3.mp4", caption: "Sleepy time" },
+    { src: "videos/vid4.mp4", caption: "Play time" }
+  ]
+}
   // ... other months
 ];
 
@@ -279,27 +289,37 @@ function renderPage() {
     const right = document.createElement("div");
     right.className = "page image-page";
 
-    page.images.forEach(item => {
-      const polaroid = document.createElement("div");
-      polaroid.className = "polaroid";
+    // Determine whether to render images or videos
+if (page.images) {
+  page.images.forEach(item => {
+    const polaroid = document.createElement("div");
+    polaroid.className = "polaroid";
 
-      if (item.type === "video") {
-        polaroid.innerHTML = `
-          <video controls width="100%" style="border-radius:5px;">
-            <source src="${item.src}" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-          <div class="caption">${item.caption}</div>
-        `;
-      } else {
-        polaroid.innerHTML = `
-          <img src="${item.src}" alt="${item.caption}">
-          <div class="caption">${item.caption}</div>
-        `;
-      }
+    polaroid.innerHTML = `
+      <img src="${item.src}" alt="${item.caption}">
+      <div class="caption">${item.caption}</div>
+    `;
 
-      right.appendChild(polaroid);
-    });
+    right.appendChild(polaroid);
+  });
+}
+
+if (page.videos) {
+  page.videos.forEach(item => {
+    const polaroid = document.createElement("div");
+    polaroid.className = "polaroid";
+
+    polaroid.innerHTML = `
+      <video controls width="100%" style="border-radius:5px;">
+        <source src="${item.src}" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="caption">${item.caption}</div>
+    `;
+
+    right.appendChild(polaroid);
+  });
+}
 
     container.appendChild(right);
   }
