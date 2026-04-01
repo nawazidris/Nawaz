@@ -38,7 +38,7 @@ const albumPages = [
   },
   {
     title: "First Month-October 2024💙",
-    text: "One month with our precious little boy, and our hearts are already so full. In just a few short weeks, you’ve brought endless love, gentle moments, and a kind of happiness we never knew was possible. From your tiny fingers wrapped around ours to your peaceful sleeps and soft little sounds, every moment with you is a treasure. You may be small, but the joy you bring is bigger than anything in this world. This first month has been a beautiful beginning — a time of learning, bonding, and falling more in love with you every single day. We can’t wait to watch you grow, discover, and fill our lives with even more magic. You are deeply loved, little one, today and always. 💛",
+    text: "The first month with our precious little boy, and our hearts are already so full. In just a few short weeks, you’ve brought endless love, gentle moments, and a kind of happiness we never knew was possible. From your tiny fingers wrapped around ours to your peaceful sleeps and soft little sounds, every moment with you is a treasure. You may be small, but the joy you bring is bigger than anything in this world. This first month has been a beautiful beginning — a time of learning, bonding, and falling more in love with you every single day. We can’t wait to watch you grow, discover, and fill our lives with even more magic. You are deeply loved, little one, today and always. 💛",
     images: [
       
       { src: "images/oct2.webp", caption: "Cozy cuddle time" },
@@ -305,6 +305,16 @@ const albumPages = [
       { src: "images/dece6.webp", caption: "Happy moments" },
       { src: "images/dece7.webp", caption: "Smile time" },
       { src: "images/dece8.webp", caption: "Smile time" }
+    ]
+  },
+  { 
+    type: "cover", 
+    title: "Nawaz Idris Khan", 
+    subtitle: "The Year 2026 in Pictures ✨💛", 
+    image: "images/bornday1.webp",   // main cover photo
+    extras: [
+      "images/bornday2.webp",            // floating polaroids
+      "images/bornday3.webp"
     ]
   }
   // ... other months
