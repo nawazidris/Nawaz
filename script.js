@@ -393,13 +393,26 @@ function renderPage() {
 
     container.appendChild(div);
 
-    // Sparkles
-    for (let i = 0; i < 20; i++) {
+    // Premium Sparkles - Enhanced
+    for (let i = 0; i < 35; i++) {
       const sparkle = document.createElement('span');
       sparkle.className = 'sparkle';
-      sparkle.style.top = Math.random() * 100 + '%';
-      sparkle.style.left = Math.random() * 100 + '%';
-      sparkle.style.animationDelay = Math.random() * 2 + 's';
+
+      // More sophisticated positioning - avoid text areas
+      let top, left;
+      do {
+        top = Math.random() * 100;
+        left = Math.random() * 100;
+      } while (
+        (top > 30 && top < 70 && left > 20 && left < 80) || // Avoid center text area
+        (top > 10 && top < 90 && left > 40 && left < 60)    // Avoid main title area
+      );
+
+      sparkle.style.top = top + '%';
+      sparkle.style.left = left + '%';
+      sparkle.style.animationDelay = Math.random() * 3 + 's';
+      sparkle.style.animationDuration = (2 + Math.random() * 2) + 's';
+
       div.appendChild(sparkle);
     }
 
@@ -530,19 +543,41 @@ function renderPage() {
 // -------------------- NAVIGATION --------------------
 function nextPage() {
   if (currentPage < albumPages.length - 1) {
-    currentPage++;
-    renderPage();
+    triggerPageTurn();
+    setTimeout(() => {
+      currentPage++;
+      renderPage();
+    }, 300);
   }
 }
 
 function prevPage() {
   if (currentPage > 0) {
-    currentPage--;
-    renderPage();
+    triggerPageTurn();
+    setTimeout(() => {
+      currentPage--;
+      renderPage();
+    }, 300);
   }
 }
 
 function goToPage(index) {
-  currentPage = parseInt(index);
-  renderPage();
+  const newIndex = parseInt(index);
+  if (newIndex !== currentPage) {
+    triggerPageTurn();
+    setTimeout(() => {
+      currentPage = newIndex;
+      renderPage();
+    }, 300);
+  }
+}
+
+function triggerPageTurn() {
+  const bookPages = document.querySelectorAll('.book-page');
+  bookPages.forEach(page => {
+    page.style.animation = 'none';
+    setTimeout(() => {
+      page.style.animation = 'pageTurn 0.6s ease-in-out';
+    }, 10);
+  });
 }
