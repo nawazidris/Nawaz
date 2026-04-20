@@ -307,16 +307,55 @@ const albumPages = [
     ]
   },
   { 
-    type: "cover", 
+    type: "yearCover", 
     title: "Nawaz Idris Khan", 
     subtitle: "The Year 2026 in Pictures ✨💛", 
     image: "images/bornday1.webp",   // main cover photo
-    extras: [
-      "images/bornday2.webp",            // floating polaroids
-      "images/bornday3.webp"
+    gallery: [
+      { src: "images/bornday2.webp", caption: "Sweet moments" },
+      { src: "images/bornday3.webp", caption: "Family love" },
+      { src: "images/jan1.webp", caption: "New beginnings" },
+      { src: "images/apr1.webp", caption: "Spring joy" },
+      { src: "images/jul1.webp", caption: "Summer days" }
+    ]
+  },
+  {
+    type: "photoOnly",
+    title: "Jan - March 2026",
+    images: [
+      { src: "images/jan1.webp", caption: "" },
+      { src: "images/jan2.webp", caption: "" },
+      { src: "images/jan3.webp", caption: "" },
+{ src: "images/jan1.webp", caption: "" },
+      { src: "images/jan2.webp", caption: "" },
+      { src: "images/jan3.webp", caption: "" },
+{ src: "images/jan1.webp", caption: "" },
+      { src: "images/jan2.webp", caption: "" },
+      { src: "images/jan3.webp", caption: "" },
+
+      { src: "images/jan4.webp", caption: "" }
+    ]
+  },
+  {
+    type: "photoOnly",
+    title: "Apr - June 2026",
+    images: [
+      { src: "images/apr1.webp", caption: "" },
+      { src: "images/apr2.webp", caption: "" },
+      { src: "images/apr3.webp", caption: "" },
+      { src: "images/apr4.webp", caption: "" }
+    ]
+  },
+  {
+    type: "photoOnly",
+    title: "Jul - Sep 2026",
+    images: [
+      { src: "images/jul1.webp", caption: "" },
+      { src: "images/jul4.webp", caption: "" },
+      { src: "images/jul5.webp", caption: "" },
+      { src: "images/jul6.webp", caption: "" }
     ]
   }
-  // ... other months
 ];
 
 // -------------------- GLOBAL STATE --------------------
@@ -373,17 +412,67 @@ function renderPage() {
 
     // Empty right page
     const right = document.createElement("div");
-right.className = "page cover-text";
-right.innerHTML = `
-  <h2>Welcome to Nawaz Idris Khan Photo Album</h2>
-  <p>Nawaz Idris Khan, from the moment you arrived, you’ve filled our hearts 
-    with endless joy and love. Every tiny giggle, every little cuddle, and 
-    every new discovery has made this year magical. May your days always 
-    be bright, your dreams be big, and your life be surrounded by warmth 
-    and happiness. 💛✨.</p>
-    <p style="margin-top:20px; font-weight:bold;">With love from Mum and Dad ❤️</p>
-`;
-container.appendChild(right);
+    right.className = "page cover-text";
+    right.innerHTML = `
+      <h2>Welcome to Nawaz Idris Khan Photo Album</h2>
+      <p>Nawaz Idris Khan, from the moment you arrived, you’ve filled our hearts 
+        with endless joy and love. Every tiny giggle, every little cuddle, and 
+        every new discovery has made this year magical. May your days always 
+        be bright, your dreams be big, and your life be surrounded by warmth 
+        and happiness. 💛✨.</p>
+      <p style="margin-top:20px; font-weight:bold;">With love from Mum and Dad ❤️</p>
+    `;
+    container.appendChild(right);
+
+  } else if (page.type === "yearCover") {
+    // --------- 2026 PHOTO-ONLY COVER ---------
+    const div = document.createElement("div");
+    div.className = "page year-cover";
+
+    const gallery = page.gallery || [];
+    const gridItems = gallery.map(item => `
+      <div class="photo-tile">
+        <img src="${item.src}" alt="${item.caption}">
+      </div>
+    `).join("");
+
+    div.innerHTML = `
+      <div class="year-cover-intro">
+        <div class="cover-headline">
+          <h1>${page.title}</h1>
+          <div class="ribbon">${page.subtitle}</div>
+        </div>
+        <div class="hero-image">
+          <img src="${page.image}" alt="${page.title}">
+        </div>
+      </div>
+      <div class="photo-grid">
+        ${gridItems}
+      </div>
+    `;
+
+    container.appendChild(div);
+
+  } else if (page.type === "photoOnly" || page.text === undefined || page.text === null) {
+    // --------- PHOTO-ONLY SECTION ---------
+    const div = document.createElement("div");
+    div.className = "page photo-only-page";
+
+    const galleryHtml = (page.images || []).map(item => `
+      <div class="polaroid photo-only-polaroid">
+        <img src="${item.src}" alt="${item.caption}">
+        ${item.caption ? `<div class="caption">${item.caption}</div>` : ""}
+      </div>
+    `).join("");
+
+    div.innerHTML = `
+      <h2>${page.title}</h2>
+      <div class="photo-only-grid">
+        ${galleryHtml}
+      </div>
+    `;
+
+    container.appendChild(div);
 
   } else {
     // --------- TEXT + IMAGES/VIDEOS ---------
@@ -395,37 +484,36 @@ container.appendChild(right);
     const right = document.createElement("div");
     right.className = "page image-page";
 
-    // Determine whether to render images or videos
-if (page.images) {
-  page.images.forEach(item => {
-    const polaroid = document.createElement("div");
-    polaroid.className = "polaroid";
+    if (page.images) {
+      page.images.forEach(item => {
+        const polaroid = document.createElement("div");
+        polaroid.className = "polaroid";
 
-    polaroid.innerHTML = `
-      <img src="${item.src}" alt="${item.caption}">
-      <div class="caption">${item.caption}</div>
-    `;
+        polaroid.innerHTML = `
+          <img src="${item.src}" alt="${item.caption}">
+          <div class="caption">${item.caption}</div>
+        `;
 
-    right.appendChild(polaroid);
-  });
-}
+        right.appendChild(polaroid);
+      });
+    }
 
-if (page.videos) {
-  page.videos.forEach(item => {
-    const polaroid = document.createElement("div");
-    polaroid.className = "polaroid";
+    if (page.videos) {
+      page.videos.forEach(item => {
+        const polaroid = document.createElement("div");
+        polaroid.className = "polaroid";
 
-    polaroid.innerHTML = `
-      <video controls width="100%" style="border-radius:5px;">
-        <source src="${item.src}" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <div class="caption">${item.caption}</div>
-    `;
+        polaroid.innerHTML = `
+          <video controls width="100%" style="border-radius:5px;">
+            <source src="${item.src}" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <div class="caption">${item.caption}</div>
+        `;
 
-    right.appendChild(polaroid);
-  });
-}
+        right.appendChild(polaroid);
+      });
+    }
 
     container.appendChild(right);
   }
