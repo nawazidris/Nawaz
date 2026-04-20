@@ -326,13 +326,6 @@ const albumPages = [
       { src: "images/jan1.webp", caption: "" },
       { src: "images/jan2.webp", caption: "" },
       { src: "images/jan3.webp", caption: "" },
-{ src: "images/jan1.webp", caption: "" },
-      { src: "images/jan2.webp", caption: "" },
-      { src: "images/jan3.webp", caption: "" },
-{ src: "images/jan1.webp", caption: "" },
-      { src: "images/jan2.webp", caption: "" },
-      { src: "images/jan3.webp", caption: "" },
-
       { src: "images/jan4.webp", caption: "" }
     ]
   },
@@ -453,26 +446,39 @@ function renderPage() {
 
     container.appendChild(div);
 
-  } else if (page.type === "photoOnly" || page.text === undefined || page.text === null) {
-    // --------- PHOTO-ONLY SECTION ---------
-    const div = document.createElement("div");
-    div.className = "page photo-only-page";
+  } else if (page.type === "photoOnly") {
+    // --------- PHOTO-ONLY BOOK SPREAD ---------
+    const spread = document.createElement("div");
+    spread.className = "page photo-book";
 
-    const galleryHtml = (page.images || []).map(item => `
-      <div class="polaroid photo-only-polaroid">
+    const leftPage = document.createElement("div");
+    leftPage.className = "book-page book-left";
+    leftPage.innerHTML = `<div class="book-title"><h2>${page.title}</h2></div>`;
+
+    const rightPage = document.createElement("div");
+    rightPage.className = "book-page book-right";
+
+    const images = page.images || [];
+    const splitIndex = Math.ceil(images.length / 2);
+    const leftImages = images.slice(0, splitIndex);
+    const rightImages = images.slice(splitIndex);
+
+    const buildTile = item => `
+      <div class="book-photo-tile">
         <img src="${item.src}" alt="${item.caption}">
-        ${item.caption ? `<div class="caption">${item.caption}</div>` : ""}
-      </div>
-    `).join("");
-
-    div.innerHTML = `
-      <h2>${page.title}</h2>
-      <div class="photo-only-grid">
-        ${galleryHtml}
       </div>
     `;
 
-    container.appendChild(div);
+    leftImages.forEach(item => {
+      leftPage.innerHTML += buildTile(item);
+    });
+    rightImages.forEach(item => {
+      rightPage.innerHTML += buildTile(item);
+    });
+
+    spread.appendChild(leftPage);
+    spread.appendChild(rightPage);
+    container.appendChild(spread);
 
   } else {
     // --------- TEXT + IMAGES/VIDEOS ---------
