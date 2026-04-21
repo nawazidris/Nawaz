@@ -497,7 +497,6 @@ function renderPage() {
     header.className = "collage-header";
     header.innerHTML = `
       <h1 class="collage-title">${page.title}</h1>
-      ${page.text ? `<p class="collage-text">${page.text}</p>` : ''}
     `;
     pageContainer.appendChild(header);
 
