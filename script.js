@@ -310,23 +310,48 @@ const albumPages = [
     type: "yearCover", 
     title: "Nawaz Idris Khan", 
     subtitle: "The Year 2026 in Pictures ✨💛", 
-    image: "images/bornday1.webp",   // main cover photo
+    image: "idris/idris (7).webp",   // main cover photo
     gallery: [
-      { src: "images/bornday2.webp", caption: "Sweet moments" },
-      { src: "images/bornday3.webp", caption: "Family love" },
-      { src: "images/jan1.webp", caption: "New beginnings" },
-      { src: "images/apr1.webp", caption: "Spring joy" },
-      { src: "images/jul1.webp", caption: "Summer days" }
+      { src: "idris/idris (2).webp", caption: "Sweet moments" },
+      { src: "idris/idris (4).webp", caption: "Family love" },
+      { src: "idris/idris (16).webp", caption: "New beginnings" },
+      { src: "idris/idris (28).webp", caption: "Spring joy" },
+      { src: "idris/idris (30).webp", caption: "Summer days" }
     ]
   },
   {
     type: "photoOnly",
     title: "Jan - March 2026",
     images: [
-      { src: "images/jan1.webp", caption: "" },
-      { src: "images/jan2.webp", caption: "" },
-      { src: "images/jan3.webp", caption: "" },
-      { src: "images/jan4.webp", caption: "" }
+      { src: "idris/idris (1).webp", caption: "Sweet moments" },
+      { src: "idris/idris (2).webp", caption: "Family love" },
+      { src: "idris/idris (3).webp", caption: "New beginnings" },
+      { src: "idris/idris (4).webp", caption: "Spring joy" },
+      { src: "idris/idris (5).webp", caption: "Sweet moments" },
+      { src: "idris/idris (6).webp", caption: "Family love" },
+      { src: "idris/idris (7).webp", caption: "New beginnings" },
+      { src: "idris/idris (8).webp", caption: "Spring joy" },
+      { src: "idris/idris (9).webp", caption: "Sweet moments" },
+      { src: "idris/idris (10).webp", caption: "Family love" },
+      { src: "idris/idris (11).webp", caption: "New beginnings" },
+      { src: "idris/idris (12).webp", caption: "Spring joy" },
+      { src: "idris/idris (14).webp", caption: "Spring joy" },
+      { src: "idris/idris (13).webp", caption: "Summer days" },
+      { src: "idris/idris (15).webp", caption: "Spring joy" },
+      { src: "idris/idris (16).webp", caption: "Spring joy" },
+      { src: "idris/idris (17).webp", caption: "Spring joy" },
+      { src: "idris/idris (18).webp", caption: "Spring joy" },
+      { src: "idris/idris (19).webp", caption: "Spring joy" },
+      { src: "idris/idris (20).webp", caption: "Spring joy" },
+      { src: "idris/idris (21).webp", caption: "Spring joy" },
+      { src: "idris/idris (22).webp", caption: "Spring joy" },
+      { src: "idris/idris (23).webp", caption: "Spring joy" },
+      { src: "idris/idris (24).webp", caption: "Spring joy" },
+      { src: "idris/idris (25).webp", caption: "Spring joy" },
+      { src: "idris/idris (26).webp", caption: "Spring joy" },
+      { src: "idris/idris (27).webp", caption: "Spring joy" },
+      { src: "idris/idris (28).webp", caption: "Spring joy" }
+
     ]
   },
   {
