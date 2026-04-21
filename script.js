@@ -496,7 +496,7 @@ function renderPage() {
   } else {
     // --------- TEXT + IMAGES/VIDEOS ---------
     const left = document.createElement("div");
-    left.className = "page text-page";
+    left.className = `page text-page page-${currentPage}`;
     left.innerHTML = `<h2>${page.title}</h2><p>${page.text}</p>`;
     container.appendChild(left);
 

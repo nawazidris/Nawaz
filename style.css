@@ -28,8 +28,8 @@ body {
 }
 
 .login-box h2 {
-  font-family: 'Playfair Display', serif;
-  color: #b85c38;
+  font-family: 'Montserrat', sans-serif;
+  color: #1e3a8a; /* Deep blue for boy theme */
 }
 
 .login-box input {
@@ -320,7 +320,7 @@ body {
   font-family: 'Playfair Display', serif;
   font-size: 2.2em;
   font-weight: 600;
-  color: #2c3e50;
+  color: #1e3a8a; /* Deep blue for boy theme */
   margin-bottom: 20px;
   text-shadow: 0 1px 2px rgba(0,0,0,0.1);
   position: relative;
@@ -330,7 +330,7 @@ body {
 .cover-text p {
   font-family: 'Dancing Script', cursive;
   font-size: 1.3em;
-  color: #34495e;
+  color: #1e40af; /* Royal blue */
   line-height: 1.8;
   text-align: center;
   max-width: 600px;
@@ -343,7 +343,7 @@ body {
   font-family: 'Dancing Script', cursive;
   font-size: 1.4em;
   font-weight: 600;
-  color: #e74c3c;
+  color: #7c3aed; /* Purple accent */
   margin-top: 20px;
   text-shadow: 0 1px 2px rgba(0,0,0,0.1);
 }
@@ -375,14 +375,14 @@ body {
 
 .cover-headline h1 {
   font-size: 2.8em;
-  color: #5b3c86;
+  color: #1e3a8a; /* Deep blue for boy theme */
   margin-bottom: 12px;
 }
 
 .year-cover .ribbon {
   display: inline-block;
-  background: #ffd966;
-  color: #4b2e83;
+  background: linear-gradient(135deg, #3b82f6, #1e40af); /* Blue gradient */
+  color: white;
   padding: 10px 22px;
   border-radius: 40px;
   font-size: 1.05em;
@@ -608,8 +608,8 @@ body {
 
 .book-title h2 {
   margin: 0;
-  font-family: 'Playfair Display', serif;
-  color: #4d2f76;
+  font-family: 'Montserrat', sans-serif;
+  color: #1e3a8a; /* Deep blue for boy theme */
   font-size: 2.1em;
   letter-spacing: 0.02em;
 }
@@ -696,25 +696,81 @@ body {
   }
 }
 
-/* Text Page */
-.text-page h2 {
-  margin-top: 0;
-  color: #b85c38;
-  font-family: 'Playfair Display', serif;
-  font-size: 1.6em;
-  padding-bottom: 12px;
-  border-bottom: 2px solid #d9854f;
-}
+/* Different Fonts for Different Pages - Boy Theme */
+.page-1 h2 { font-family: 'Montserrat', sans-serif; color: #1e3a8a; }
+.page-1 p { font-family: 'Lato', sans-serif; color: #1e40af; }
 
-.text-page p {
-  color: #333;
-  line-height: 1.7;
-  margin-top: 12px;
-  margin-bottom: 10px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 0.95em;
-  text-align: justify;
-}
+.page-2 h2 { font-family: 'Raleway', sans-serif; color: #1e3a8a; }
+.page-2 p { font-family: 'Poppins', sans-serif; color: #1e40af; }
+
+.page-3 h2 { font-family: 'Nunito', sans-serif; color: #1e3a8a; }
+.page-3 p { font-family: 'Quicksand', sans-serif; color: #1e40af; }
+
+.page-4 h2 { font-family: 'Fredoka', cursive; color: #1e3a8a; }
+.page-4 p { font-family: 'Comfortaa', cursive; color: #1e40af; }
+
+.page-5 h2 { font-family: 'Karla', sans-serif; color: #1e3a8a; }
+.page-5 p { font-family: 'Inter', sans-serif; color: #1e40af; }
+
+.page-6 h2 { font-family: 'Work Sans', sans-serif; color: #1e3a8a; }
+.page-6 p { font-family: 'Montserrat', sans-serif; color: #1e40af; }
+
+.page-7 h2 { font-family: 'Poppins', sans-serif; color: #1e3a8a; }
+.page-7 p { font-family: 'Lato', sans-serif; color: #1e40af; }
+
+.page-8 h2 { font-family: 'Nunito', sans-serif; color: #1e3a8a; }
+.page-8 p { font-family: 'Raleway', sans-serif; color: #1e40af; }
+
+.page-9 h2 { font-family: 'Fredoka', cursive; color: #1e3a8a; }
+.page-9 p { font-family: 'Quicksand', sans-serif; color: #1e40af; }
+
+.page-10 h2 { font-family: 'Comfortaa', cursive; color: #1e3a8a; }
+.page-10 p { font-family: 'Karla', sans-serif; color: #1e40af; }
+
+.page-11 h2 { font-family: 'Inter', sans-serif; color: #1e3a8a; }
+.page-11 p { font-family: 'Work Sans', sans-serif; color: #1e40af; }
+
+.page-12 h2 { font-family: 'Montserrat', sans-serif; color: #1e3a8a; }
+.page-12 p { font-family: 'Poppins', sans-serif; color: #1e40af; }
+
+.page-13 h2 { font-family: 'Raleway', sans-serif; color: #1e3a8a; }
+.page-13 p { font-family: 'Nunito', sans-serif; color: #1e40af; }
+
+.page-14 h2 { font-family: 'Fredoka', cursive; color: #1e3a8a; }
+.page-14 p { font-family: 'Comfortaa', cursive; color: #1e40af; }
+
+.page-15 h2 { font-family: 'Karla', sans-serif; color: #1e3a8a; }
+.page-15 p { font-family: 'Inter', sans-serif; color: #1e40af; }
+
+.page-16 h2 { font-family: 'Work Sans', sans-serif; color: #1e3a8a; }
+.page-16 p { font-family: 'Montserrat', sans-serif; color: #1e40af; }
+
+.page-17 h2 { font-family: 'Poppins', sans-serif; color: #1e3a8a; }
+.page-17 p { font-family: 'Lato', sans-serif; color: #1e40af; }
+
+.page-18 h2 { font-family: 'Nunito', sans-serif; color: #1e3a8a; }
+.page-18 p { font-family: 'Raleway', sans-serif; color: #1e40af; }
+
+.page-19 h2 { font-family: 'Fredoka', cursive; color: #1e3a8a; }
+.page-19 p { font-family: 'Quicksand', sans-serif; color: #1e40af; }
+
+.page-20 h2 { font-family: 'Comfortaa', cursive; color: #1e3a8a; }
+.page-20 p { font-family: 'Karla', sans-serif; color: #1e40af; }
+
+.page-21 h2 { font-family: 'Inter', sans-serif; color: #1e3a8a; }
+.page-21 p { font-family: 'Work Sans', sans-serif; color: #1e40af; }
+
+.page-22 h2 { font-family: 'Montserrat', sans-serif; color: #1e3a8a; }
+.page-22 p { font-family: 'Poppins', sans-serif; color: #1e40af; }
+
+.page-23 h2 { font-family: 'Raleway', sans-serif; color: #1e3a8a; }
+.page-23 p { font-family: 'Nunito', sans-serif; color: #1e40af; }
+
+.page-24 h2 { font-family: 'Fredoka', cursive; color: #1e3a8a; }
+.page-24 p { font-family: 'Comfortaa', cursive; color: #1e40af; }
+
+.page-25 h2 { font-family: 'Karla', sans-serif; color: #1e3a8a; }
+.page-25 p { font-family: 'Inter', sans-serif; color: #1e40af; }
 
 /* Image Page */
 .image-page {
