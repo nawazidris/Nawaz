@@ -488,41 +488,43 @@ function renderPage() {
     container.appendChild(div);
 
   } else if (page.type === "photoOnly") {
-    // --------- PHOTO-ONLY BOOK SPREAD ---------
-    const spread = document.createElement("div");
-    spread.className = "page photo-book force-desktop";
+    // --------- MODERN FLOATING PHOTO COLLAGE ---------
+    const container = document.createElement("div");
+    container.className = "photo-collage-container";
 
-    const leftPage = document.createElement("div");
-    leftPage.className = "book-page book-left";
-    leftPage.innerHTML = `<div class="book-title"><h2>${page.title}</h2></div>`;
-    if (page.text) {
-      leftPage.innerHTML += `<p>${page.text}</p>`;
-    }
+    // Header section
+    const header = document.createElement("div");
+    header.className = "collage-header";
+    header.innerHTML = `
+      <h1 class="collage-title">${page.title}</h1>
+      ${page.text ? `<p class="collage-text">${page.text}</p>` : ''}
+    `;
+    container.appendChild(header);
 
-    const rightPage = document.createElement("div");
-    rightPage.className = "book-page book-right";
+    // Photo collage
+    const collage = document.createElement("div");
+    collage.className = "photo-collage";
 
     const images = page.images || [];
-    const splitIndex = Math.ceil(images.length / 2);
-    const leftImages = images.slice(0, splitIndex);
-    const rightImages = images.slice(splitIndex);
+    images.forEach((item, index) => {
+      const photoItem = document.createElement("div");
+      photoItem.className = "collage-photo-item";
+      photoItem.style.animationDelay = `${index * 0.1}s`;
 
-    const buildTile = item => `
-      <div class="book-photo-tile">
-        <img src="${item.src}" alt="${item.caption}">
-      </div>
-    `;
+      photoItem.innerHTML = `
+        <div class="photo-frame">
+          <img src="${item.src}" alt="${item.caption}" loading="lazy">
+          <div class="photo-overlay">
+            <div class="photo-caption">${item.caption}</div>
+          </div>
+        </div>
+      `;
 
-    leftImages.forEach(item => {
-      leftPage.innerHTML += buildTile(item);
+      collage.appendChild(photoItem);
     });
-    rightImages.forEach(item => {
-      rightPage.innerHTML += buildTile(item);
-    });
 
-    spread.appendChild(leftPage);
-    spread.appendChild(rightPage);
-    container.appendChild(spread);
+    container.appendChild(collage);
+    albumContainer.appendChild(container);
 
   } else {
     // --------- TEXT + IMAGES/VIDEOS ---------
