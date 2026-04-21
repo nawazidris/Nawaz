@@ -892,7 +892,7 @@ body {
 /* Images inside polaroid - fixed square size with face-focused cropping */
 .polaroid img {
   width: 100%;
-  height: 130px;
+  height: 300px;
   object-fit: cover;
   object-position: center 30%;
   border-radius: 5px;
@@ -902,7 +902,7 @@ body {
 /* Videos inside polaroid - fixed square size with face-focused cropping */
 .polaroid video {
   width: 100%;
-  height: 130px;
+  height: 300px;
   object-fit: cover;
   object-position: center 30%;
   border-radius: 5px;

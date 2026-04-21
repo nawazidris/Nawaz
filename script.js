@@ -267,12 +267,7 @@ const albumPages = [
     text: "November brings cozy autumn days and cherished moments. Looking back, your first Ashes day is still fresh in our hearts — a beautiful beginning in faith and family, surrounded by love and prayers. This month, we watch you explore, giggle, and learn more about the world every day. Your curiosity, innocence, and joy brighten every corner of our lives. We promise to guide you, celebrate you, and always shower you with unconditional love. 💛",
     images: [
       { src: "images/nov11.webp", caption: "Playing with toys" },
-      { src: "images/nov12.webp", caption: "First bath" },
-      { src: "images/nov13.webp", caption: "Happy moments" },
-      { src: "images/nov14.webp", caption: "Playing with toys" },
-      { src: "images/nov15.webp", caption: "First bath" },
-      { src: "images/nov16.webp", caption: "Happy moments" },
-      { src: "images/nov17.webp", caption: "Smile time" }
+      { src: "images/nov12.webp", caption: "Happy moments" }
     ]
   },
   {
@@ -308,7 +303,7 @@ const albumPages = [
   },
   { 
     type: "yearCover", 
-    title: "Nawaz Idris Khan", 
+    title: "2026 Highlights", 
     subtitle: "The Year 2026 in Pictures ✨💛", 
     image: "idris/idris (7).webp",   // main cover photo
     gallery: [
