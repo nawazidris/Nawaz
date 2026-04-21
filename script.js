@@ -489,8 +489,8 @@ function renderPage() {
 
   } else if (page.type === "photoOnly") {
     // --------- MODERN FLOATING PHOTO COLLAGE ---------
-    const container = document.createElement("div");
-    container.className = "photo-collage-container";
+    const pageContainer = document.createElement("div");
+    pageContainer.className = "photo-collage-container";
 
     // Header section
     const header = document.createElement("div");
@@ -499,7 +499,7 @@ function renderPage() {
       <h1 class="collage-title">${page.title}</h1>
       ${page.text ? `<p class="collage-text">${page.text}</p>` : ''}
     `;
-    container.appendChild(header);
+    pageContainer.appendChild(header);
 
     // Photo collage
     const collage = document.createElement("div");
@@ -523,8 +523,8 @@ function renderPage() {
       collage.appendChild(photoItem);
     });
 
-    container.appendChild(collage);
-    albumContainer.appendChild(container);
+    pageContainer.appendChild(collage);
+    container.appendChild(pageContainer);
 
   } else {
     // --------- TEXT + IMAGES/VIDEOS ---------
