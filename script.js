@@ -322,6 +322,7 @@ const albumPages = [
   {
     type: "photoOnly",
     title: "Jan - March 2026",
+    text: "January to March 2026: As you enter your second year, your personality shines brighter every day. From winter cuddles to spring adventures, your laughter and curiosity fill our home with joy. Watching you learn, play, and grow is our greatest happiness. 💛",
     images: [
       { src: "idris/idris (1).webp", caption: "Sweet moments" },
       { src: "idris/idris (2).webp", caption: "Family love" },
@@ -357,21 +358,23 @@ const albumPages = [
   {
     type: "photoOnly",
     title: "Apr - June 2026",
+    text: "April to June 2026: Spring blooms and summer approaches, bringing new discoveries and endless fun. Your energy and smiles light up every moment, making each day an adventure. We cherish your growth and the love you bring. 💛",
     images: [
-      { src: "images/apr1.webp", caption: "" },
-      { src: "images/apr2.webp", caption: "" },
-      { src: "images/apr3.webp", caption: "" },
-      { src: "images/apr4.webp", caption: "" }
+      { src: "images/apr1.webp", caption: "Spring adventures" },
+      { src: "images/apr2.webp", caption: "Family moments" },
+      { src: "images/apr3.webp", caption: "Playful days" },
+      { src: "images/apr4.webp", caption: "Joyful smiles" }
     ]
   },
   {
     type: "photoOnly",
     title: "Jul - Sep 2026",
+    text: "July to September 2026: Summer days filled with play, exploration, and family time. Your curiosity knows no bounds, and your joy is contagious. These months are full of memories we'll treasure forever. 💛",
     images: [
-      { src: "images/jul1.webp", caption: "" },
-      { src: "images/jul4.webp", caption: "" },
-      { src: "images/jul5.webp", caption: "" },
-      { src: "images/jul6.webp", caption: "" }
+      { src: "images/jul1.webp", caption: "Summer fun" },
+      { src: "images/jul4.webp", caption: "Play time" },
+      { src: "images/jul5.webp", caption: "Happy days" },
+      { src: "images/jul6.webp", caption: "Family joy" }
     ]
   }
 ];
@@ -403,8 +406,8 @@ function renderPage() {
     const div = document.createElement("div");
     div.className = "page cover";
 
-    let polaroid1 = page.images && page.images[0] ? page.images[0].src : page.image;
-    let polaroid2 = page.images && page.images[1] ? page.images[1].src : page.image;
+    let polaroid1 = page.extras && page.extras[0] ? page.extras[0] : page.image;
+    let polaroid2 = page.extras && page.extras[1] ? page.extras[1] : page.image;
 
     div.innerHTML = `
       <h1>${page.title}</h1>
@@ -487,11 +490,14 @@ function renderPage() {
   } else if (page.type === "photoOnly") {
     // --------- PHOTO-ONLY BOOK SPREAD ---------
     const spread = document.createElement("div");
-    spread.className = "page photo-book";
+    spread.className = "page photo-book force-desktop";
 
     const leftPage = document.createElement("div");
     leftPage.className = "book-page book-left";
     leftPage.innerHTML = `<div class="book-title"><h2>${page.title}</h2></div>`;
+    if (page.text) {
+      leftPage.innerHTML += `<p>${page.text}</p>`;
+    }
 
     const rightPage = document.createElement("div");
     rightPage.className = "book-page book-right";

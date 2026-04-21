@@ -671,27 +671,44 @@ body {
   margin-top: 8px;
 }
 
+/* Force desktop view for photoOnly */
+.force-desktop {
+  flex-direction: row !important;
+}
+
+.force-desktop .book-page {
+  width: 50% !important;
+}
+
+.force-desktop::before {
+  display: block !important;
+}
+
+.force-desktop .book-photo-tile {
+  width: calc(50% - 10px) !important;
+}
+
 @media (max-width: 980px) {
-  .photo-book {
+  .photo-book:not(.force-desktop) {
     flex-direction: column;
   }
 
-  .photo-book::before {
+  .photo-book:not(.force-desktop)::before {
     display: none;
   }
 
-  .book-page {
+  .book-page:not(.force-desktop .book-page) {
     width: 100%;
     margin-bottom: 20px;
   }
 
-  .book-left, .book-right {
+  .book-left:not(.force-desktop .book-left), .book-right:not(.force-desktop .book-right) {
     border: none;
   }
 }
 
 @media (max-width: 680px) {
-  .book-photo-tile {
+  .book-photo-tile:not(.force-desktop .book-photo-tile) {
     width: 100%;
   }
 }
