@@ -174,12 +174,12 @@ const albumPages = [
     title: "June 2025💙",
     text: "June brings the magic of summer and bright sunny days, just like the light you bring into our lives. Your tiny hands are exploring, your eyes are sparkling with curiosity, and every day you are learning more about this big, beautiful world. Watching you grow is an endless joy—your laughter, your first attempts at babbling, the way you reach for everything around you—all of it makes our hearts swell with pride and love. Never forget how deeply you are loved, little one, for you are our greatest blessing and our endless happiness. 💛",
     images: [
-      { src: "images/jun1.webp", caption: "Playing with toys" },
-      { src: "images/jun2.webp", caption: "First bath" },
+      { src: "images/jun1.webp", caption: "Bhonzo Fav Nyama" },
+      { src: "images/jun2.webp", caption: "Amila mila" },
       { src: "images/jun3.webp", caption: "Happy moments" },
       { src: "images/jun4.webp", caption: "Smile time" },
-      { src: "images/jun10.webp", caption: "Playing with toys" },
-      { src: "images/jun5.webp", caption: "First bath" },
+      { src: "images/jun10.webp", caption: "Playing with Mama" },
+      { src: "images/jun5.webp", caption: "Dad" },
       { src: "images/jun11.webp", caption: "Happy moments" },
     ]
   },
@@ -187,12 +187,12 @@ const albumPages = [
     title: "July 2025💙",
     text: "July is here with warm sunshine, playful days, and joyful moments. Each day, you surprise us with your growing personality, your tiny giggles, and your innocent curiosity. We love watching you discover the world—every new sound, touch, and sight is a celebration of your journey. This month, we promise to fill your days with cuddles, laughter, stories, and songs that remind you how deeply you are loved. You are our little miracle, and every moment with you is a treasure we will cherish forever. 💛",
     images: [
-      { src: "images/jul1.webp", caption: "Playing with toys" },
-      { src: "images/jul4.webp", caption: "First bath" },
+      { src: "images/jul1.webp", caption: "Akuda kuchema" },
+      { src: "images/jul4.webp", caption: "Dad" },
       { src: "images/jul5.webp", caption: "Happy moments" },
-      { src: "images/jul6.webp", caption: "Smile time" },
+      { src: "images/jul6.webp", caption: "Sleep time" },
       { src: "images/jul8.webp", caption: "Smile time" },
-      { src: "images/jul9.webp", caption: "Smile time" }
+      { src: "images/jul9.webp", caption: "Cartoon time" }
     ]
   },
   {
@@ -200,12 +200,12 @@ const albumPages = [
     text: "August is a month of gentle summer evenings, playful adventures, and sweet discoveries. You are growing into a bright, curious, and joyful little boy, and every smile you share warms our hearts. Watching you reach for toys, explore new textures, and interact with the world is the most beautiful experience. You are our little miracle, our shining star, and we promise to support, protect, and love you with all our hearts as you continue to grow, learn, and thrive. 💛",
     images: [
       { src: "images/aug3.webp", caption: "Playing with toys" },
-      { src: "images/aug2.webp", caption: "First bath" },
-      { src: "images/aug7.webp", caption: "Happy moments" },
-      { src: "images/aug4.webp", caption: "Smile time" },
+      { src: "images/aug2.webp", caption: "Cute" },
+      { src: "images/aug7.webp", caption: "Khan visit" },
+      { src: "images/aug4.webp", caption: "Khan visit" },
       { src: "images/aug1.webp", caption: "Smile time" },
       { src: "images/aug6.webp", caption: "Smile time" },
-      { src: "images/aug9.webp", caption: "Smile time" },
+      { src: "images/aug9.webp", caption: "Good moments" },
       { src: "images/aug8.webp", caption: "Smile time" },
       { src: "images/aug5.webp", caption: "Smile time" }
     ]
@@ -263,15 +263,15 @@ const albumPages = [
   ]
 },
 {
-    title: "November 2025",
+    title: "November 2025💙",
     text: "November brings cozy autumn days and cherished moments. Looking back, your first Ashes day is still fresh in our hearts — a beautiful beginning in faith and family, surrounded by love and prayers. This month, we watch you explore, giggle, and learn more about the world every day. Your curiosity, innocence, and joy brighten every corner of our lives. We promise to guide you, celebrate you, and always shower you with unconditional love. 💛",
     images: [
-      { src: "images/nov11.webp", caption: "Playing with toys" },
+      { src: "images/nov11.webp", caption: "Playing with Dad" },
       { src: "images/nov12.webp", caption: "Happy moments" }
     ]
   },
   {
-    title: "December 2025",
+    title: "December 2025💙",
     text: `
   <p>
     Dear Nawaz, December has been a month filled with warmth, love, and unforgettable moments. 
@@ -316,7 +316,7 @@ const albumPages = [
   },
   {
     type: "photoOnly",
-    title: "Jan - March 2026",
+    title: "Jan - March 2026💙",
     text: "January to March 2026: As you enter your second year, your personality shines brighter every day. From winter cuddles to spring adventures, your laughter and curiosity fill our home with joy. Watching you learn, play, and grow is our greatest happiness. 💛",
     images: [
       { src: "idris/idris (1).webp", caption: "Sweet moments" },
@@ -335,11 +335,7 @@ const albumPages = [
       { src: "idris/idris (13).webp", caption: "Summer days" },
       { src: "idris/idris (15).webp", caption: "Spring joy" },
       { src: "idris/idris (16).webp", caption: "Spring joy" },
-      { src: "idris/idris (17).webp", caption: "Spring joy" },
-      { src: "idris/idris (18).webp", caption: "Spring joy" },
-      { src: "idris/idris (19).webp", caption: "Spring joy" },
-      { src: "idris/idris (20).webp", caption: "Spring joy" },
-      { src: "idris/idris (21).webp", caption: "Spring joy" },
+     
       { src: "idris/idris (22).webp", caption: "Spring joy" },
       { src: "idris/idris (23).webp", caption: "Spring joy" },
       { src: "idris/idris (24).webp", caption: "Spring joy" },
@@ -348,22 +344,25 @@ const albumPages = [
       { src: "idris/idris (27).webp", caption: "Spring joy" },
       { src: "idris/idris (28).webp", caption: "Spring joy" }
 
+
     ]
   },
   {
     type: "photoOnly",
-    title: "Apr - June 2026",
+    title: "Apr - June 2026💙",
     text: "April to June 2026: Spring blooms and summer approaches, bringing new discoveries and endless fun. Your energy and smiles light up every moment, making each day an adventure. We cherish your growth and the love you bring. 💛",
     images: [
-      { src: "images/apr1.webp", caption: "Spring adventures" },
-      { src: "images/apr2.webp", caption: "Family moments" },
-      { src: "images/apr3.webp", caption: "Playful days" },
-      { src: "images/apr4.webp", caption: "Joyful smiles" }
+      { src: "idris/idris (17).webp", caption: "Ice cream" },
+      { src: "idris/idris (18).webp", caption: "Ice cream" },
+      { src: "idris/idris (19).webp", caption: "Spring joy" },
+      { src: "idris/idris (20).webp", caption: "Spring joy" },
+      { src: "idris/idris (21).webp", caption: "Spring joy" }
+     
     ]
   },
   {
     type: "photoOnly",
-    title: "Jul - Sep 2026",
+    title: "Jul - Sep 2026💙",
     text: "July to September 2026: Summer days filled with play, exploration, and family time. Your curiosity knows no bounds, and your joy is contagious. These months are full of memories we'll treasure forever. 💛",
     images: [
       { src: "images/jul1.webp", caption: "Summer fun" },
