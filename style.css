@@ -624,10 +624,7 @@ body {
     transform: scale(1.02) rotate(calc(var(--rotation, 0) * 1deg + 0.5deg));
   }
 }
-  position: relative;
-  animation: bookFlipIn 0.8s ease-out;
-  overflow: hidden;
-}
+  
 
 .book-page::before {
   content: '';
