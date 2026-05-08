@@ -348,6 +348,19 @@ const albumPages = [
     ]
   },
   {
+  title: "Random 2026 Videos 🎥",
+  text: "A collection of our favorite videos from 2026, capturing the most precious moments and milestones. From your first laugh to your first steps, these videos are a treasure trove of memories that we will cherish forever. Each video tells a story of love, growth, and the incredible journey we’ve shared together. Watching you discover the world around you, express joy, and interact with loved ones has been the greatest gift. These videos are a testament to the beautiful bond we have and the countless moments of happiness you’ve brought into our lives. We can’t wait to create even more memories with you in the years to come! 💛🎥",
+  videos: [
+    { src: "videos/vid1.mp4", caption: "First porridge" },
+    { src: "videos/vid2.mp4", caption: "First bath" },
+    { src: "videos/vid3.mp4", caption: "Sleepy time" },
+    { src: "videos/vid5.mp4", caption: "Play time" },
+    { src: "videos/vid6.mp4", caption: "Play time" },
+    { src: "videos/vid7.mp4", caption: "Gutu visit" },
+    { src: "videos/vid8.mp4", caption: "Play time" }
+  ]
+},
+  {
     type: "photoOnly",
     title: "Apr - June 2026💙",
     text: "April to June 2026: Spring blooms and summer approaches, bringing new discoveries and endless fun. Your energy and smiles light up every moment, making each day an adventure. We cherish your growth and the love you bring. 💛",
