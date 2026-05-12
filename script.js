@@ -351,13 +351,27 @@ const albumPages = [
   title: "Random 2026 Videos 🎥",
   text: "A collection of our favorite videos from 2026, capturing the most precious moments and milestones. From your first laugh to your first steps, these videos are a treasure trove of memories that we will cherish forever. Each video tells a story of love, growth, and the incredible journey we’ve shared together. Watching you discover the world around you, express joy, and interact with loved ones has been the greatest gift. These videos are a testament to the beautiful bond we have and the countless moments of happiness you’ve brought into our lives. We can’t wait to create even more memories with you in the years to come! 💛🎥",
   videos: [
-    { src: "videos/vid1.mp4", caption: "First porridge" },
-    { src: "videos/vid2.mp4", caption: "First bath" },
-    { src: "videos/vid3.mp4", caption: "Sleepy time" },
-    { src: "videos/vid5.mp4", caption: "Play time" },
-    { src: "videos/vid6.mp4", caption: "Play time" },
-    { src: "videos/vid7.mp4", caption: "Gutu visit" },
-    { src: "videos/vid8.mp4", caption: "Play time" }
+    { src: "videos/dance.mp4", caption: "Dance" },
+    { src: "videos/idris1.mp4", caption: "Fav Windows" },
+    { src: "videos/idris2.mp4", caption: "Ummm" },
+    { src: "videos/idris6.mp4", caption: "Ichooo" },
+    { src: "videos/mama.mp4", caption: "Mama" },
+    { src: "videos/Nawa & yolo.mp4", caption: "Yolo" },
+    { src: "videos/idris5.mp4", caption: "Tshaya" }
+    
+  ]
+},
+ {
+  title: "Random 2026 Videos-2 🎥",
+  text: "A collection of our favorite videos from 2026, capturing the most precious moments and milestones. From your first laugh to your first steps, these videos are a treasure trove of memories that we will cherish forever. Each video tells a story of love, growth, and the incredible journey we’ve shared together. Watching you discover the world around you, express joy, and interact with loved ones has been the greatest gift. These videos are a testament to the beautiful bond we have and the countless moments of happiness you’ve brought into our lives. We can’t wait to create even more memories with you in the years to come! 💛🎥",
+  videos: [
+    { src: "videos/nawa1.mp4", caption: "Washen" },
+    { src: "videos/nawa2.mp4", caption: "Karun" },
+    { src: "videos/nawa3.mp4", caption: "Speedy Nawa" },
+    { src: "videos/nawa4.mp4", caption: "Zvichaita chete" },
+    { src: "videos/nawa5.mp4", caption: "Bhoya" },
+    { src: "videos/nawa6.mp4", caption: "Zvichaita chete" },
+    { src: "videos/tate.mp4", caption: "Tate Nhanha" }
   ]
 },
   {
@@ -365,11 +379,18 @@ const albumPages = [
     title: "Apr - June 2026💙",
     text: "April to June 2026: Spring blooms and summer approaches, bringing new discoveries and endless fun. Your energy and smiles light up every moment, making each day an adventure. We cherish your growth and the love you bring. 💛",
     images: [
-      { src: "idris/idris (17).webp", caption: "Ice cream" },
-      { src: "idris/idris (18).webp", caption: "Ice cream" },
-      { src: "idris/idris (19).webp", caption: "Spring joy" },
-      { src: "idris/idris (20).webp", caption: "Spring joy" },
-      { src: "idris/idris (21).webp", caption: "Spring joy" }
+      { src: "images/idris (1).webp", caption: "Ice cream" },
+      { src: "images/idris (2).webp", caption: "Ice cream" },
+      { src: "images/idris (3).webp", caption: "Spring joy" },
+      { src: "images/idris (4).webp", caption: "Spring joy" },
+      { src: "images/idris (5).webp", caption: "Spring joy" },
+      { src: "images/idris (6).webp", caption: "Spring joy" },
+      { src: "images/idris (7).webp", caption: "Spring joy" },
+      { src: "images/idris (8).webp", caption: "Spring joy" },
+      { src: "images/idris (9).webp", caption: "Spring joy" },
+      { src: "images/idris (10).webp", caption: "Spring joy" },
+      { src: "images/idris (11).webp", caption: "Spring joy" },
+      { src: "images/idris (12).jpg", caption: "Spring joy" }
      
     ]
   },
